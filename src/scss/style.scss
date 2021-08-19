@@ -230,7 +230,7 @@ span{
 }
 
 .fs-16 {
-  @include fontfamily (16px, 24px, 400, $white);
+  @include fontfamily (16px, 24px, 400, $main);
   text-align: center;
   text-transform: none;
  }
@@ -247,6 +247,7 @@ span{
   .news-items{
     margin-top: 48px;
   }
+
   p{
     text-align: left;
   }
@@ -274,7 +275,7 @@ a{
 
 
   .fs-12{
-    @include fontfamily (12px, 19px, 400, $main);
+    @include fontfamily (12.8px, 19px, 400, $main);
   text-transform: none;
   }
 .fc-orange{
@@ -303,4 +304,44 @@ height: 19px;
  .reverse {
   flex-direction: column-reverse;
  }
+}
+
+#page-app{
+  background: $bgcolor;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -43px;
+  h2{
+    margin-bottom: 64px;
+  }
+  p{
+    text-align: left;
+  }
+  button{
+    width: 131px;
+height: 53px;
+background:$red;
+border-radius: 32px;
+margin-top: 16px;
+a{
+  @include fontfamily (12.8px, 19px, 400, $white);
+  }
+}
+}
+.app-items{
+  margin-right: 144px;
+}
+@media only screen and (max-width: 415px){
+  #page-app{
+    h2{
+      margin-bottom: 48px;
+    }
+  }
+
+.app-items{
+  margin-right: 0px;
+  }
+  .mb-0{
+    margin-bottom: 0px;
+  }
 }
