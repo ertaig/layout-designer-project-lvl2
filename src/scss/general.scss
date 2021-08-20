@@ -1,3 +1,8 @@
+@import "header.scss";
+
+@import "footer.scss";
+
+
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 :focus,:active{outline: none;}
@@ -40,6 +45,8 @@ h6 {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular.ttf");
 }
+
+
 
 h1 {
   font-weight: 700;
@@ -130,4 +137,29 @@ body {
   content: ' ';
 }
 
+.section-artist {
+  width: 100%;
+  //min-height: 750px;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.section-artist::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  display: block;
+  width: 100%;
+  min-height: 950px;
+
+  background-image: url('../images/Morten Harket.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  content: ' ';
+}
 
