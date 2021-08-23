@@ -1,14 +1,14 @@
 @import "variables.scss";
-
 @import "general.scss";
 
-#page-description{
+#page-description {
   margin-top: 200px;
   margin-bottom: 200px;
-  h1{
-    color: $white;
-    text-align: left;
-  }
+
+h1 {
+  color: $white;
+  text-align: left;
+}
 }
 
 @mixin  fontfamily ($fs, $lh, $fw, $fc) {
@@ -16,122 +16,139 @@
   line-height: $lh;
   font-weight: $fw;
   color: $fc;
- }
+}
 
- .fs-16{
+.fs-16{
   @include fontfamily (16px, 24px, 400, $white);
- }
- button{
+}
+
+ button {
   margin-top: 48px;
   width: 200px;
   height: 62px;
   border-radius: 5px;
-  a{
-    @include fontfamily (12.8px, 19px, 400, $white);
 
-  }
-  
- }
+a {
+  @include fontfamily (12.8px, 19px, 400, $white);
+}
+}
 
-
- .btn-purple{
+.btn-purple {
   background-color: $purple;
- }
- .mr-24{
+}
+
+.mr-24 {
   margin-right: 24px;
- }
- .btn-red{
+}
+
+.btn-red {
   background-color: $red;
- }
-.mr-1{
+}
+
+.mr-1 {
   margin-right: 1.5rem;
 }
 
-.pl-30{
+.pl-30 {
   text-align: left;
 }
-@media only screen and (max-width: 415px) {
 
-  #page-description{
-    margin-top: 55px;
+@media only screen and (max-width: 415px) {
+#page-description {
+  margin-top: 55px;
 }
 }
 
 #page-popular-track {
   background: $bgcolor;
   padding-top: 100px;
-  h2{
-    text-align: left;
-    margin-bottom: 48px;
-  }
+
+h2 {
+  text-align: left;
+  margin-bottom: 48px;
 }
-.flex {
+}
+
+.flex-artist {
   display: flex;
   flex-wrap: wrap;
 }
-.flex-row{
-  display: flex;
 
+.flex-row {
+  display: flex;
 }
-.popular-track{
+
+.popular-track {
   margin-bottom: 15px;
-  
-  
 }
-.ml-15{
+
+.ml-15 {
   margin-left: 15px;
 }
-.mr-368{
+
+.mr-368 {
   margin-right: 368px;
 }
-.mr-373{
+
+.mr-373 {
   margin-right: 373px;
 }
-.mr-331{
+
+.mr-331 {
   margin-right: 331px;
 }
-.mr-363{
+
+.mr-363 {
   margin-right: 363px;
 }
-.mr-337{
+
+.mr-337 {
   margin-right: 337px;
 }
-.fs-12{
+
+.fs-12 {
    @include fontfamily (12.8px, 19px, 700, $white);
 }
-.fw-400{
-   @include fontfamily (12.8px, 19px, 400, $grey);
-   text-transform: none;
+
+.fw-400 {
+  @include fontfamily (12.8px, 19px, 400, $grey);
+  text-transform: none;
 }
 
-.mr-50{
+.mr-50 {
   margin-right: 50px;
 }
-.mb-0{
-  margin-bottom: 0px;
+.mb-0 {
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 415px) {
 
-.mr-368{
+.mr-368 {
   margin-right: 191px;
 }
-.mr-373{
+
+.mr-373 {
   margin-right: 196px;
 }
-.mr-331{
+
+.mr-331 {
   margin-right: 154px;
 }
-.mr-363{
+
+.mr-363 {
   margin-right: 186px;
 }
-.mr-337{
+
+.mr-337 {
   margin-right: 160px;
 }
-.mr-50{
+
+.mr-50 {
   margin-right: 0px;
 }
-.mb-15{
+
+.mb-15 {
   margin-bottom: 15px;
 }
 }
@@ -140,40 +157,87 @@
 #page-discography {
   background: $bgcolor;
   padding-top: 100px;
-  h2{
-    text-align: left;
-    margin-bottom: 48px;
-  }
+
+h2 {
+  text-align: left;
+  margin-bottom: 48px;
 }
-.fs-18{
+
+br {
+  display: none;
+}
+}
+
+.fs-18 {
   @include fontfamily (18px, 27px, 700, $white);
   text-transform: none;
  }
 
-.fs-16{
+.fs-16 {
   @include fontfamily (16px, 24px, 400, $white);
+  text-transform: none;
 
- }
- .fc-grey{
-   color: $grey;
- }
- .mt-18{
-  margin-top: 18px;
- }
- .discography-item{
+}
+.fc-grey {
+  color: $grey;
+}
+
+.mt-18 {
+ margin-top: 18px;
+}
+
+.discography-item {
   margin-right: 50px;
   margin-bottom: 25px;
- }
+}
 
- @media only screen and (max-width: 415px){
-
-  #page-discography{
-img{
+@media only screen and (max-width: 415px){
+#page-discography{
+img {
   width: 137px;
 }
-  }
- }
- .mr-0{
-  margin-right: 0px;
- }
 
+br {
+  display: initial;
+}
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+}
+
+#page-similar {
+  background: $bgcolor;
+  padding-top: 100px;
+
+h2 {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+br {
+  display: none;
+}
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.similar-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 415px){
+#page-similar {
+img {
+  width: 137px;
+}
+
+br {
+  display: initial;
+}
+}
+}
