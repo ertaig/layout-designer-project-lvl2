@@ -511,6 +511,10 @@ button a {
   margin-right: 50px;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 @media only screen and (max-width: 415px) {
   .mr-368 {
     margin-right: 191px;
@@ -535,4 +539,53 @@ button a {
   .mr-50 {
     margin-right: 0px;
   }
+
+  .mb-15 {
+    margin-bottom: 15px;
+  }
+}
+#page-discography {
+  background: #08020d;
+  padding-top: 100px;
+}
+#page-discography h2 {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.fs-18 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: none;
+}
+
+.fs-16 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.fc-grey {
+  color: #E0E0E0;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.discography-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 415px) {
+  #page-discography img {
+    width: 137px;
+  }
+}
+.mr-0 {
+  margin-right: 0px;
 }

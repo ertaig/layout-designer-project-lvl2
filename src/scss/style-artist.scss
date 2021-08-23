@@ -75,7 +75,7 @@
 }
 .popular-track{
   margin-bottom: 15px;
-  //margin-right: 50px;
+  
   
 }
 .ml-15{
@@ -107,6 +107,9 @@
 .mr-50{
   margin-right: 50px;
 }
+.mb-0{
+  margin-bottom: 0px;
+}
 
 @media only screen and (max-width: 415px) {
 
@@ -128,6 +131,49 @@
 .mr-50{
   margin-right: 0px;
 }
+.mb-15{
+  margin-bottom: 15px;
+}
 }
 
+
+#page-discography {
+  background: $bgcolor;
+  padding-top: 100px;
+  h2{
+    text-align: left;
+    margin-bottom: 48px;
+  }
+}
+.fs-18{
+  @include fontfamily (18px, 27px, 700, $white);
+  text-transform: none;
+ }
+
+.fs-16{
+  @include fontfamily (16px, 24px, 400, $white);
+
+ }
+ .fc-grey{
+   color: $grey;
+ }
+ .mt-18{
+  margin-top: 18px;
+ }
+ .discography-item{
+  margin-right: 50px;
+  margin-bottom: 25px;
+ }
+
+ @media only screen and (max-width: 415px){
+
+  #page-discography{
+img{
+  width: 137px;
+}
+  }
+ }
+ .mr-0{
+  margin-right: 0px;
+ }
 
