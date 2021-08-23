@@ -43,7 +43,7 @@
  .btn-red{
   background-color: $red;
  }
-.mr-15{
+.mr-1{
   margin-right: 1.5rem;
 }
 
@@ -56,3 +56,78 @@
     margin-top: 55px;
 }
 }
+
+#page-popular-track {
+  background: $bgcolor;
+  padding-top: 100px;
+  h2{
+    text-align: left;
+    margin-bottom: 48px;
+  }
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-row{
+  display: flex;
+
+}
+.popular-track{
+  margin-bottom: 15px;
+  //margin-right: 50px;
+  
+}
+.ml-15{
+  margin-left: 15px;
+}
+.mr-368{
+  margin-right: 368px;
+}
+.mr-373{
+  margin-right: 373px;
+}
+.mr-331{
+  margin-right: 331px;
+}
+.mr-363{
+  margin-right: 363px;
+}
+.mr-337{
+  margin-right: 337px;
+}
+.fs-12{
+   @include fontfamily (12.8px, 19px, 700, $white);
+}
+.fw-400{
+   @include fontfamily (12.8px, 19px, 400, $grey);
+   text-transform: none;
+}
+
+.mr-50{
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 415px) {
+
+.mr-368{
+  margin-right: 191px;
+}
+.mr-373{
+  margin-right: 196px;
+}
+.mr-331{
+  margin-right: 154px;
+}
+.mr-363{
+  margin-right: 186px;
+}
+.mr-337{
+  margin-right: 160px;
+}
+.mr-50{
+  margin-right: 0px;
+}
+}
+
+
