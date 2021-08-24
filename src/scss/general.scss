@@ -114,9 +114,10 @@ h1 {
   line-height: 90px;
   text-transform: uppercase;
   text-align: center;
+  color:$white
   }
 
-  h2 {
+h2 {
   font-weight: 700;
   font-size: 38px;
   line-height: 57px;
@@ -125,23 +126,23 @@ h1 {
   color:$white;
   }
 
-  h3 {
+h3 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 45px;
   text-transform: none;
   color:$white;
   }
   
-  @media only screen and (max-width: 415px) {
-  h1 {
+@media only screen and (max-width: 415px) {
+h1 {
   font-weight: 700;
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;
   }
 
-  h2 {
+h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -149,8 +150,8 @@ h1 {
   color:$white;
   }
 
-   h3 {
-  font-weight: 400;
+h3 {
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-transform: none;
@@ -213,7 +214,7 @@ body {
   width: 100%;
   min-height: 950px;
 
-  background-image: url('../images/Morten Harket.png');
+  background-image: url('../images/MortenHarket.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

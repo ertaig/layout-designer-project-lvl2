@@ -10,6 +10,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: $white;
   text-transform: none;
   margin-top: 30px;
   margin-bottom: 17px;
@@ -57,7 +58,7 @@ p {
 @media only screen and (max-width: 415px) {
 #page-description {
   margin-top: 78px;
-  padding-bottom: 87px;
+  padding-bottom: 200px;
 
 p {
   margin-top: 16px;
@@ -80,11 +81,18 @@ button {
 
 .flex {
   display: flex;
-  margin-bottom: 43px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
 }
 
 .mb-45 {
   margin-bottom: 45px;
+}
+
+.mb-43 {
+  margin-bottom: 43px;
 }
 
 .pricing-item {
@@ -107,9 +115,7 @@ button {
   min-width: 318px;
   height: 66px;
 
-a {
   @include fontfamily (16px, 24px, 400, $white);
-}
 }
 }
 
@@ -167,6 +173,9 @@ span {
   text-align: center;
   text-transform: none;
 }
+.fc-white{
+  color: $white;
+}
 
 .pricing-footer {
   margin-bottom: 64px;
@@ -180,7 +189,7 @@ span {
   padding-top: 100px;
 
 .news-items {
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 p {
@@ -195,11 +204,9 @@ button {
   border-radius: 5px;
   background: transparent;
 
-a {
-  @include fontfamily (12px, 19px, 400, $main);
+   @include fontfamily (12px, 19px, 400, $main);
   text-transform: none;
   text-align: center;
-}
 }
 }
 
@@ -251,7 +258,7 @@ a {
   background: $bgcolor;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-top: -43px;
+  
 
   h2 {
   margin-bottom: 64px;
@@ -268,9 +275,7 @@ button {
   border-radius: 32px;
   margin-top: 16px;
 
-a {
   @include fontfamily (12.8px, 19px, 400, $white);
-  }
 }
 }
 

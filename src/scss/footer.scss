@@ -12,19 +12,10 @@
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
 
-ul {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: $white;
-
-li {
+ ul li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-&:first-child {
-  margin-top: 15px;
 }
 
 a {
@@ -32,7 +23,17 @@ a {
   text-transform: none;
 }
 }
+
+
+.mb-15{
+  margin-bottom: 15px;
 }
+
+.fs-18 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: $white;
 }
 
 .icons-grid {
@@ -40,7 +41,7 @@ a {
   grid-template-columns: auto auto auto 1fr;
   grid-column-gap: 24px;
 
-li {
+a {
   margin-top: 15px;
 }
 }
@@ -58,7 +59,6 @@ li {
   margin-top: 40px;
   padding-bottom: 2rem;
 
-ul {
 
 li {
   margin-right: 16px;
@@ -72,24 +72,29 @@ li {
   text-transform: none;
 }
 }
-}
 
-.flex {
+
+.flex-footer {
   display: flex;
 }
 
 @media only screen and (max-width: 415px){
-.flex{
+.flex-footer{
   flex-direction: column;
   margin-bottom: 0;
+
+  li{
+  margin-bottom: 15px;
 }
+  }
+
 
 .low-menu {
   margin-top: 20px;
-
-li{
-  margin-top: 16px;
 }
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .footer-grid{
@@ -97,9 +102,8 @@ li{
   grid-template-columns: none;
   grid-template-rows: auto auto auto auto;
 }
+}
 
-.mt-30{
-  margin-top: 30px;
-}
-}
+
+
 
