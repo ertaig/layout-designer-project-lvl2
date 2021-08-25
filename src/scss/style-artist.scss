@@ -1,9 +1,35 @@
 @import "variables.scss";
 @import "general.scss";
 
+
 #page-description {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  width: 100%;
+  position: relative;
+
+  overflow: hidden;
+}
+
+#page-description::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  display: block;
+  width: 100%;
+  min-height: 950px;
+
+  background-image: url('../images/MortenHarket.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  content: ' ';
+}
+
+#page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
 
 h1 {
   color: $white;
@@ -40,13 +66,7 @@ h1 {
   margin-right: 24px;
 }
 
-.icon::before {
-  content: "";
-  background-image: url('../images/icons/play-button.svg');
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-}
+
 
 .btn-red {
   background-color: $red;
@@ -61,9 +81,7 @@ h1 {
 }
 
 @media only screen and (max-width: 415px) {
-#page-description {
-  margin-top: 55px;
-}
+
 }
 
 #page-popular-track {

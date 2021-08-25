@@ -25,12 +25,11 @@ a:focus,a:active {
   outline: none;
 }
 
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
+//nav,
+//footer,
+//header,
+//  display: block;
+//}
 
 html,
 body {
@@ -135,6 +134,9 @@ h3 {
   }
   
 @media only screen and (max-width: 415px) {
+.container{
+  //padding: 0 20px 0 20px;
+}
 h1 {
   font-weight: 700;
   font-size: 30px;
@@ -167,58 +169,13 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1240px;
+  //margin: 0 auto;
+  padding: 0 20px 0 20px;
   position: relative;
   z-index: 2;
   }
   
-.section {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
 
-.section::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
 
-  display: block;
-  width: 100%;
-  min-height: 950px;
-
-  background-image: url('../images/banner.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  content: ' ';
-}
-
-.section-artist {
-  width: 100%;
-  position: relative;
-
-  overflow: hidden;
-}
-
-.section-artist::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-
-  display: block;
-  width: 100%;
-  min-height: 950px;
-
-  background-image: url('../images/MortenHarket.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  content: ' ';
-}
 

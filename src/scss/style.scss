@@ -1,12 +1,38 @@
 @import "variables.scss";
 @import "general.scss";
 
+
 #page-description {
-  margin-top: 150px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#page-description::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  display: block;
+  width: 100%;
+  min-height: 950px;
+
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  content: ' ';
+}
+
+#page-description {
+  padding-top: 200px;
   text-align: center;
   padding-bottom: 200px;
 
-p {
+}
+.text-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -16,9 +42,12 @@ p {
   margin-bottom: 17px;
   text-align: center;
 }
-
- input {
-  min-width: 273px;
+.form-description {
+  width: 570px;
+  margin: 0 auto; 
+ }
+.input-description {
+  width: 270px;
   min-height: 50px;
   border-radius: 3px;
   border: 2px solid $main;
@@ -26,15 +55,17 @@ p {
   background: transparent;
 }
 
- button {
+.btn-description {
   width: 570px;
   min-height: 50px;
   background: $green;
-  border-radius: 5px;
-}
 }
 
 .btn {
+  border-radius: 5px;
+}
+
+.ff-arial {
   font-family: Arial;
   font-size: 13.3px;
   line-height: 15px;
@@ -57,7 +88,7 @@ p {
 
 @media only screen and (max-width: 415px) {
 #page-description {
-  margin-top: 78px;
+  //margin-top: 78px;
   padding-bottom: 200px;
 
 p {
@@ -71,6 +102,9 @@ input{
 button {
   width: 374px;
 }
+}
+.form-description {
+  width: 100%
 }
 }
 
