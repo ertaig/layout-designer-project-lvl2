@@ -2,9 +2,7 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  left: 160px;
 }
 
 header .menu ul {
@@ -45,6 +43,7 @@ header .search {
   padding-left: 10px;
   background-color: #3C3B3D;
   border-radius: 50px;
+  text-transform: uppercase;
 }
 
 .mr-24 {
@@ -52,6 +51,10 @@ header .search {
 }
 
 @media only screen and (max-width: 1125px) {
+  header {
+    left: 0;
+    padding: 0 20px 0 20px;
+  }
   header .search {
     margin-left: 0;
   }
@@ -93,6 +96,14 @@ header .search {
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
+.footer h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #FFFFFF;
+}
 
 .footer-grid {
   display: -ms-grid;
@@ -105,6 +116,7 @@ header .search {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-transform: none;
 }
 .footer-grid a {
   color: #E0E0E0;
@@ -113,13 +125,6 @@ header .search {
 
 .mb-15 {
   margin-bottom: 15px;
-}
-
-.fs-18 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: #FFFFFF;
 }
 
 .icons-grid {
@@ -326,12 +331,24 @@ h2 {
 h3 {
   font-weight: 400;
   font-size: 24px;
-  line-height: 45px;
-  text-transform: none;
+  line-height: 36px;
   color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 415px) {
+  .container {
+    max-width: 1200px;
+  }
+
   h1 {
     font-weight: 700;
     font-size: 30px;
@@ -348,11 +365,11 @@ h3 {
   }
 
   h3 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-transform: none;
     color: #FFFFFF;
+    text-transform: uppercase;
   }
 }
 body {
@@ -362,8 +379,12 @@ body {
   text-transform: uppercase;
 }
 
+html {
+  font-size: 18px;
+}
+
 .container {
-  max-width: 1240px;
+  min-width: 100%;
   padding: 0 20px 0 20px;
   position: relative;
   z-index: 2;
@@ -393,10 +414,12 @@ body {
 #page-description {
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-left: 150px;
 }
 #page-description h1 {
   color: #FFFFFF;
   text-align: left;
+  margin-bottom: 16px;
 }
 
 .fs-16 {
@@ -411,6 +434,7 @@ button {
   width: 200px;
   height: 62px;
   border-radius: 5px;
+  padding: 20px 30px 20px 30px;
   font-size: 12.8px;
   line-height: 19px;
   font-weight: 400;

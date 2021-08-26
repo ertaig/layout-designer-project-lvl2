@@ -16,7 +16,7 @@
 
   display: block;
   width: 100%;
-  min-height: 950px;
+  min-height: 100%;
 
   background-image: url('../images/banner.png');
   background-repeat: no-repeat;
@@ -87,9 +87,13 @@
 }
 
 @media only screen and (max-width: 415px) {
+
+.mt-78 {
+    margin-top: 78px;
+  }
 #page-description {
   //margin-top: 78px;
-  padding-bottom: 200px;
+  //padding-bottom: 200px;
 
 p {
   margin-top: 16px;
@@ -144,21 +148,23 @@ button {
   margin-bottom: 64px;
   border: 1px solid $white;
   box-sizing: border-box;
-  border-radius: 5px;
   background: transparent;
   min-width: 318px;
   height: 66px;
 
   @include fontfamily (16px, 24px, 400, $white);
+a {
+  color: $white;
+}
 }
 }
 
 .pricing-value {
   margin-bottom: 40px;
-  @include fontfamily (64px, 64px, 400, $white);
+  @include fontfamily (64px, 1em, 400, $white);
 
 span {
-   @include fontfamily (32px, 48px, 400, $white);
+   @include fontfamily (32px, 1em, 400, $white);
    vertical-align: top;
 }
 }
@@ -202,6 +208,9 @@ span {
 }
 }
 
+.mb-43 {
+  margin-bottom: 19px;
+}
 .fs-16 {
   @include fontfamily (16px, 24px, 400, $main);
   text-align: center;
@@ -235,13 +244,20 @@ button {
   height: 53px;
   border: 1px solid $main;
   box-sizing: border-box;
-  border-radius: 5px;
   background: transparent;
 
    @include fontfamily (12px, 19px, 400, $main);
   text-transform: none;
   text-align: center;
+
+a {
+  color: $white;
 }
+}
+}
+.fs-30 {
+  @include fontfamily (30px, 45px, 400, $white);
+  text-transform: capitalize;
 }
 
 .mr-50 {
@@ -285,6 +301,11 @@ button {
 
 .reverse {
   flex-direction: column-reverse;
+}
+
+.fs-30 {
+  @include fontfamily (16px, 24px, 400, $white);
+  text-transform: capitalize;
 }
 }
 

@@ -5,6 +5,14 @@
 
   background: linear-gradient(265.08deg, $red 14.9%, $purple 68.95%);
   border-radius: 0;
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  text-align: left;
+  color: $white;
+  }
 }
 
  .footer-grid {
@@ -16,6 +24,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-transform: none;
 }
 
 a {
@@ -27,13 +36,6 @@ a {
 
 .mb-15{
   margin-bottom: 15px;
-}
-
-.fs-18 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: $white;
 }
 
 .icons-grid {

@@ -5,7 +5,6 @@
 #page-description {
   width: 100%;
   position: relative;
-
   overflow: hidden;
 }
 
@@ -30,10 +29,12 @@
 #page-description {
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-left: 150px;
 
 h1 {
   color: $white;
   text-align: left;
+  margin-bottom: 16px;
 }
 }
 
@@ -53,6 +54,7 @@ h1 {
   width: 200px;
   height: 62px;
   border-radius: 5px;
+  padding: 20px 30px 20px 30px; 
 
   @include fontfamily (12.8px, 19px, 400, $white);
 

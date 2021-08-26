@@ -4,7 +4,7 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
-  align-items: center;
+  left: 160px;
 }
 
 header {
@@ -47,6 +47,7 @@ a {
 
   background-color: $dark;
   border-radius: 50px;
+  text-transform: uppercase;
 
 }
 }
@@ -57,9 +58,12 @@ a {
 
 @media only screen and (max-width: 1125px) {
 header {
+  left: 0;
+  padding:0 20px 0 20px;
 .search{
   margin-left: 0;
 }
+
 }
 }
 
