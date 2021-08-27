@@ -63,6 +63,7 @@
 
 .btn {
   border-radius: 5px;
+  padding: 20px 30px 20px 30px; 
 }
 
 .ff-arial {
@@ -89,7 +90,7 @@
 @media only screen and (max-width: 415px) {
 
 .mt-78 {
-    margin-top: 78px;
+    margin-top: 58px;
   }
 #page-description {
   //margin-top: 78px;
@@ -113,7 +114,7 @@ button {
 }
 
 #page-pricing {
-  background: $bgcolor;
+  //background: $bgcolor;
   padding-top: 100px;
 }
 
@@ -164,7 +165,7 @@ a {
   @include fontfamily (64px, 1em, 400, $white);
 
 span {
-   @include fontfamily (32px, 1em, 400, $white);
+   @include fontfamily (32px, 48px, 400, $white);
    vertical-align: top;
 }
 }
@@ -177,14 +178,14 @@ span {
   background-image: url('../images/subscribe_1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 50px;
+  margin-right: 45px;
 }
 
 .bg-standart {
   background-image: url('../images/subscribe_2.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 50px;
+  margin-right: 45px;
 }
 
 .bg-premium{
@@ -199,6 +200,9 @@ span {
 
   .bg {
   margin-right: 0;
+}
+.bg-free,
+.bg-standart {
   margin-bottom: 27px;
 }
 
@@ -206,10 +210,10 @@ span {
   margin-bottom: 80px;
 }
 }
-}
 
 .mb-43 {
   margin-bottom: 19px;
+}
 }
 .fs-16 {
   @include fontfamily (16px, 24px, 400, $main);
@@ -228,11 +232,11 @@ span {
  }
 
  #page-news {
-  background: $bgcolor;
+  //background: $bgcolor;
   padding-top: 100px;
 
 .news-items {
-  margin-top: 64px;
+  margin-top: 48px;
 }
 
 p {
@@ -249,10 +253,8 @@ button {
    @include fontfamily (12px, 19px, 400, $main);
   text-transform: none;
   text-align: center;
-
-a {
   color: $white;
-}
+  padding: 16px 30px 16px 30px; 
 }
 }
 .fs-30 {
@@ -291,8 +293,8 @@ a {
 .flex-row {
   flex-direction: row;
 }
-.mb-50 {
-  margin-bottom: 50px;
+.mt-50 {
+  margin-top: 50px;
 }
 
 .mr-50 {
@@ -312,10 +314,9 @@ a {
 #page-app {
   background: $bgcolor;
   padding-top: 100px;
-  padding-bottom: 100px;
-  
+  margin-bottom: 100px;
 
-  h2 {
+h2 {
   margin-bottom: 64px;
 }
 
@@ -334,14 +335,21 @@ button {
 }
 }
 
-.app-items {
+.mr-144 {
   margin-right: 144px;
+}
+.mt-16 {
+  margin-top: 16px;
 }
 
 @media only screen and (max-width: 415px){
 #page-app{
 h2 {
   margin-bottom: 48px;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
 }
 
@@ -351,5 +359,6 @@ h2 {
 .mb-0{
   margin-bottom: 0;
 }
+
 }
 

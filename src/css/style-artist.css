@@ -2,7 +2,14 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
-  left: 160px;
+}
+
+.fc-white {
+  color: #FFFFFF;
+}
+
+.fc-main {
+  color: #cacaca;
 }
 
 header .menu ul {
@@ -13,33 +20,35 @@ header .menu ul {
       flex-wrap: wrap;
 }
 header .menu ul li {
-  padding-right: 24px;
+  margin-right: 24px;
 }
 header .menu ul a {
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
-  color: #FFFFFF;
 }
-header .flex {
+
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-header .text {
-  padding-left: 16px;
-  padding-right: 90px;
+
+.text {
+  margin-left: 16px;
+  margin-right: 90px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 16px;
   color: #FFFFFF;
 }
-header .search {
+
+.search {
   width: 248px;
   height: 25px;
-  margin-left: 425px;
+  margin-left: 415px;
   padding-left: 10px;
   background-color: #3C3B3D;
   border-radius: 50px;
@@ -47,7 +56,7 @@ header .search {
 }
 
 .mr-24 {
-  margin-right: 22px;
+  margin-right: 24px;
 }
 
 @media only screen and (max-width: 1125px) {
@@ -108,9 +117,12 @@ header .search {
 .footer-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
+  -ms-grid-columns: auto 40px auto 40px auto 40px auto;
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
 }
 .footer-grid ul li {
   font-weight: 400;
@@ -344,11 +356,34 @@ h4 {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 415px) {
-  .container {
-    max-width: 1200px;
-  }
+body {
+  color: #cacaca;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #08020d;
+}
 
+html {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 415px) {
   h1 {
     font-weight: 700;
     font-size: 30px;
@@ -372,24 +407,6 @@ h4 {
     text-transform: uppercase;
   }
 }
-body {
-  color: #cacaca;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-}
-
-html {
-  font-size: 18px;
-}
-
-.container {
-  min-width: 100%;
-  padding: 0 20px 0 20px;
-  position: relative;
-  z-index: 2;
-}
-
 #page-description {
   width: 100%;
   position: relative;
@@ -430,15 +447,30 @@ html {
 }
 
 button {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
   margin-top: 48px;
   width: 200px;
   height: 62px;
-  border-radius: 5px;
   padding: 20px 30px 20px 30px;
   font-size: 12.8px;
   line-height: 19px;
   font-weight: 400;
   color: #FFFFFF;
+  text-transform: uppercase;
+}
+button img {
+  position: absolute;
+  left: 30px;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 20px 30px 20px 30px;
 }
 
 .btn-purple {
@@ -453,14 +485,23 @@ button {
   background-color: #95390C;
 }
 
-.mr-21 {
-  margin-right: 21px;
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-10 {
+  margin-left: -30px;
 }
 
 .pl-30 {
   text-align: left;
 }
 
+@media only screen and (max-width: 415px) {
+  #page-description {
+    padding-left: 0;
+  }
+}
 #page-popular-track {
   background: #08020d;
   padding-top: 100px;
@@ -623,7 +664,6 @@ button {
 #page-similar {
   background: #08020d;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 #page-similar h2 {
   text-align: left;

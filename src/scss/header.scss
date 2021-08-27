@@ -4,7 +4,13 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
-  left: 160px;
+  //left: 160px;
+}
+.fc-white {
+  color: $white;
+}
+.fc-main {
+  color: $main;
 }
 
 header {
@@ -12,7 +18,7 @@ header {
   display: flex;
   flex-wrap: wrap;
 li {
-  padding-right: 24px;
+  margin-right: 24px;
 }
 
 a {
@@ -20,16 +26,16 @@ a {
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
-  color: $white;
-}
-}
 
+}
+}
+}
 .flex {
   display:flex;
 }
 .text {
-  padding-left: 16px;
-  padding-right: 90px;
+  margin-left: 16px;
+  margin-right: 90px;
 
   font-style: normal;
   font-weight: normal;
@@ -42,7 +48,7 @@ a {
   width: 248px;
   height: 25px;
 
-  margin-left: 425px;
+  margin-left: 415px;
   padding-left: 10px;
 
   background-color: $dark;
@@ -50,10 +56,10 @@ a {
   text-transform: uppercase;
 
 }
-}
+
 
 .mr-24 {
-  margin-right: 22px;
+  margin-right: 24px;
 }
 
 @media only screen and (max-width: 1125px) {

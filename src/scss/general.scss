@@ -141,9 +141,37 @@ h4 {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 415px) {
+
+body {
+  color: $main;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: $bgcolor;
+}
+html {
+  font-size: 18px;
+}
+
 .container {
   max-width: 1200px;
+  //margin: 0 auto;
+  padding: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 415px) {
+.container {
+  //max-width: 1200px;
 }
 h1 {
   font-weight: 700;
@@ -168,25 +196,4 @@ h3 {
   text-transform: uppercase;
   }
 }
-
-body {
-  color: $main;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-}
-html {
-  font-size: 18px;
-}
-
-.container {
-  min-width: 100%;
-  //margin: 0 auto;
-  padding: 0 20px 0 20px;
-  position: relative;
-  z-index: 2;
-  }
-  
-
-
 

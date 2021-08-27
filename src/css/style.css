@@ -2,7 +2,14 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
-  left: 160px;
+}
+
+.fc-white {
+  color: #FFFFFF;
+}
+
+.fc-main {
+  color: #cacaca;
 }
 
 header .menu ul {
@@ -13,33 +20,35 @@ header .menu ul {
       flex-wrap: wrap;
 }
 header .menu ul li {
-  padding-right: 24px;
+  margin-right: 24px;
 }
 header .menu ul a {
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
-  color: #FFFFFF;
 }
-header .flex {
+
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-header .text {
-  padding-left: 16px;
-  padding-right: 90px;
+
+.text {
+  margin-left: 16px;
+  margin-right: 90px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 16px;
   color: #FFFFFF;
 }
-header .search {
+
+.search {
   width: 248px;
   height: 25px;
-  margin-left: 425px;
+  margin-left: 415px;
   padding-left: 10px;
   background-color: #3C3B3D;
   border-radius: 50px;
@@ -47,7 +56,7 @@ header .search {
 }
 
 .mr-24 {
-  margin-right: 22px;
+  margin-right: 24px;
 }
 
 @media only screen and (max-width: 1125px) {
@@ -108,9 +117,12 @@ header .search {
 .footer-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
+  -ms-grid-columns: auto 40px auto 40px auto 40px auto;
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
 }
 .footer-grid ul li {
   font-weight: 400;
@@ -344,11 +356,34 @@ h4 {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 415px) {
-  .container {
-    max-width: 1200px;
-  }
+body {
+  color: #cacaca;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #08020d;
+}
 
+html {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 415px) {
   h1 {
     font-weight: 700;
     font-size: 30px;
@@ -372,24 +407,6 @@ h4 {
     text-transform: uppercase;
   }
 }
-body {
-  color: #cacaca;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-}
-
-html {
-  font-size: 18px;
-}
-
-.container {
-  min-width: 100%;
-  padding: 0 20px 0 20px;
-  position: relative;
-  z-index: 2;
-}
-
 #page-description {
   width: 100%;
   position: relative;
@@ -451,6 +468,7 @@ html {
 
 .btn {
   border-radius: 5px;
+  padding: 20px 30px 20px 30px;
 }
 
 .ff-arial {
@@ -472,7 +490,7 @@ html {
 
 @media only screen and (max-width: 415px) {
   .mt-78 {
-    margin-top: 78px;
+    margin-top: 58px;
   }
 
   #page-description p {
@@ -490,7 +508,6 @@ html {
   }
 }
 #page-pricing {
-  background: #08020d;
   padding-top: 100px;
 }
 
@@ -548,7 +565,7 @@ html {
 }
 .pricing-value span {
   font-size: 32px;
-  line-height: 1em;
+  line-height: 48px;
   font-weight: 400;
   color: #FFFFFF;
   vertical-align: top;
@@ -563,14 +580,14 @@ html {
   background-image: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 50px;
+  margin-right: 45px;
 }
 
 .bg-standart {
   background-image: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 50px;
+  margin-right: 45px;
 }
 
 .bg-premium {
@@ -588,16 +605,19 @@ html {
   }
   .flex .bg {
     margin-right: 0;
+  }
+  .flex .bg-free,
+.flex .bg-standart {
     margin-bottom: 27px;
   }
   .flex .pricing-footer {
     margin-bottom: 80px;
   }
-}
-.mb-43 {
-  margin-bottom: 19px;
-}
 
+  .mb-43 {
+    margin-bottom: 19px;
+  }
+}
 .fs-16 {
   font-size: 16px;
   line-height: 24px;
@@ -622,11 +642,10 @@ html {
 }
 
 #page-news {
-  background: #08020d;
   padding-top: 100px;
 }
 #page-news .news-items {
-  margin-top: 64px;
+  margin-top: 48px;
 }
 #page-news p {
   text-align: left;
@@ -644,9 +663,8 @@ html {
   color: #cacaca;
   text-transform: none;
   text-align: center;
-}
-#page-news button a {
   color: #FFFFFF;
+  padding: 16px 30px 16px 30px;
 }
 
 .fs-30 {
@@ -695,8 +713,8 @@ html {
             flex-direction: row;
   }
 
-  .mb-50 {
-    margin-bottom: 50px;
+  .mt-50 {
+    margin-top: 50px;
   }
 
   .mr-50 {
@@ -721,7 +739,7 @@ html {
 #page-app {
   background: #08020d;
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 #page-app h2 {
   margin-bottom: 64px;
@@ -741,13 +759,21 @@ html {
   color: #FFFFFF;
 }
 
-.app-items {
+.mr-144 {
   margin-right: 144px;
+}
+
+.mt-16 {
+  margin-top: 16px;
 }
 
 @media only screen and (max-width: 415px) {
   #page-app h2 {
     margin-bottom: 48px;
+  }
+  #page-app img {
+    display: block;
+    margin: 0 auto;
   }
 
   .app-items {

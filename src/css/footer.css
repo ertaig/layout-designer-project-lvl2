@@ -15,9 +15,12 @@
 .footer-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
+  -ms-grid-columns: auto 40px auto 40px auto 40px auto;
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
 }
 .footer-grid ul li {
   font-weight: 400;
