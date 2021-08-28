@@ -2,16 +2,21 @@
 @import "general.scss";
 
 
-#page-description {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
+//#page-description {
+ // width: 100%;
+ // position: relative;
+ // overflow: hidden;
+//}
 
-#page-description::before {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+#page-description {
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 200px;
+
+position: relative;
+  margin-top: 0;
+  //left: 0;
   z-index: 1;
 
   display: block;
@@ -22,16 +27,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  content: ' ';
 }
 
-#page-description {
-  padding-top: 200px;
-  text-align: center;
-  padding-bottom: 200px;
-
-}
 .text-description {
   font-weight: 400;
   font-size: 16px;
@@ -45,7 +42,7 @@
 .form-description {
   width: 570px;
   margin: 0 auto; 
- }
+}
 .input-description {
   width: 270px;
   min-height: 50px;
@@ -89,13 +86,12 @@
 
 @media only screen and (max-width: 415px) {
 
-.mt-78 {
-    margin-top: 58px;
-  }
-#page-description {
-  //margin-top: 78px;
-  //padding-bottom: 200px;
 
+.mt-78 {
+  margin-top: 58px;
+}
+
+#page-description {
 p {
   margin-top: 16px;
 }
@@ -108,16 +104,21 @@ button {
   width: 374px;
 }
 }
+
 .form-description {
   width: 100%
 }
 }
 
+
 #page-pricing {
-  //background: $bgcolor;
+  width: 100%;
   padding-top: 100px;
 }
 
+.ml-43 {
+  margin-left: 43px;
+}
 .flex {
   display: flex;
 }
@@ -150,7 +151,7 @@ button {
   border: 1px solid $white;
   box-sizing: border-box;
   background: transparent;
-  min-width: 318px;
+  width: 318px;
   height: 66px;
 
   @include fontfamily (16px, 24px, 400, $white);
@@ -195,6 +196,9 @@ span {
 }
 
 @media only screen and (max-width: 415px) {
+.ml-43 {
+  margin-left: 0;
+}
 .flex {
   flex-direction: column;
 
@@ -232,7 +236,8 @@ span {
  }
 
  #page-news {
-  //background: $bgcolor;
+  width: 100%;
+  margin-bottom: 0;
   padding-top: 100px;
 
 .news-items {

@@ -2,6 +2,7 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
+  left: 80px;
 }
 
 .fc-white {
@@ -12,21 +13,19 @@ header {
   color: #cacaca;
 }
 
-header .menu ul {
+header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-header .menu ul li {
-  margin-right: 24px;
-}
-header .menu ul a {
+header .menu a {
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
+  margin-right: 24px;
 }
 
 .flex {
@@ -62,7 +61,6 @@ header .menu ul a {
 @media only screen and (max-width: 1125px) {
   header {
     left: 0;
-    padding: 0 20px 0 20px;
   }
   header .search {
     margin-left: 0;
@@ -88,11 +86,14 @@ header .menu ul a {
     bottom: 20px;
     left: 16px;
   }
-  header .menu ul {
+  header .menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  header .menu a {
+    margin-right: 0;
   }
   header .search {
     width: 374px;
@@ -112,6 +113,7 @@ header .menu ul a {
   text-transform: uppercase;
   text-align: left;
   color: #FFFFFF;
+  margin-bottom: 18px;
 }
 
 .footer-grid {
@@ -139,14 +141,11 @@ header .menu ul a {
   margin-bottom: 15px;
 }
 
-.icons-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 24px auto 24px auto 24px 1fr;
-  grid-template-columns: auto auto auto 1fr;
-  grid-column-gap: 24px;
+.icons-footer {
+  display: inline;
+  margin-right: 24px;
 }
-.icons-grid a {
+.icons-footer a {
   margin-top: 15px;
 }
 
@@ -163,10 +162,8 @@ header .menu ul a {
   margin-top: 40px;
   padding-bottom: 2rem;
 }
-.low-menu li {
+.low-menu a {
   margin-right: 16px;
-}
-.low-menu li a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -369,14 +366,7 @@ html {
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 20px 0 20px;
-  position: relative;
-  z-index: 2;
-}
-
-.container-main {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
   position: relative;
@@ -408,15 +398,11 @@ html {
   }
 }
 #page-description {
-  width: 100%;
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 200px;
   position: relative;
-  overflow: hidden;
-}
-
-#page-description::before {
-  position: absolute;
-  top: 0;
-  left: 0;
+  margin-top: 0;
   z-index: 1;
   display: block;
   width: 100%;
@@ -425,13 +411,6 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  content: " ";
-}
-
-#page-description {
-  padding-top: 200px;
-  text-align: center;
-  padding-bottom: 200px;
 }
 
 .text-description {
@@ -508,7 +487,12 @@ html {
   }
 }
 #page-pricing {
+  width: 100%;
   padding-top: 100px;
+}
+
+.ml-43 {
+  margin-left: 43px;
 }
 
 .flex {
@@ -545,7 +529,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: transparent;
-  min-width: 318px;
+  width: 318px;
   height: 66px;
   font-size: 16px;
   line-height: 24px;
@@ -597,6 +581,10 @@ html {
 }
 
 @media only screen and (max-width: 415px) {
+  .ml-43 {
+    margin-left: 0;
+  }
+
   .flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -642,6 +630,8 @@ html {
 }
 
 #page-news {
+  width: 100%;
+  margin-bottom: 0;
   padding-top: 100px;
 }
 #page-news .news-items {

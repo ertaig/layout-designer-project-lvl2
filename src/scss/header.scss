@@ -4,7 +4,7 @@ header {
   position: absolute;
   z-index: 3;
   margin-top: 25px;
-  //left: 160px;
+  left: 80px;
 }
 .fc-white {
   color: $white;
@@ -14,18 +14,16 @@ header {
 }
 
 header {
-.menu ul {
+.menu  {
   display: flex;
   flex-wrap: wrap;
-li {
-  margin-right: 24px;
-}
 
 a {
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
+  margin-right: 24px;
 
 }
 }
@@ -65,7 +63,7 @@ a {
 @media only screen and (max-width: 1125px) {
 header {
   left: 0;
-  padding:0 20px 0 20px;
+  //padding:0 20px 0 20px;
 .search{
   margin-left: 0;
 }
@@ -92,8 +90,11 @@ header {
   left: 16px;
 }
 
-.menu ul {
+.menu {
   flex-direction: column;
+a {
+  margin-right: 0;
+}
 }
 
 .search {

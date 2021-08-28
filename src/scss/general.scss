@@ -154,25 +154,17 @@ html {
 }
 
 .container {
-  max-width: 1200px;
-  //margin: 0 auto;
-  padding: 0 20px 0 20px;
-  position: relative;
-  z-index: 2;
-}
-
-.container-main {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
   position: relative;
   z-index: 2;
 }
 
+
+
 @media only screen and (max-width: 415px) {
-.container {
-  //max-width: 1200px;
-}
+
 h1 {
   font-weight: 700;
   font-size: 30px;

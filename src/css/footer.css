@@ -10,6 +10,7 @@
   text-transform: uppercase;
   text-align: left;
   color: #FFFFFF;
+  margin-bottom: 18px;
 }
 
 .footer-grid {
@@ -37,14 +38,11 @@
   margin-bottom: 15px;
 }
 
-.icons-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 24px auto 24px auto 24px 1fr;
-  grid-template-columns: auto auto auto 1fr;
-  grid-column-gap: 24px;
+.icons-footer {
+  display: inline;
+  margin-right: 24px;
 }
-.icons-grid a {
+.icons-footer a {
   margin-top: 15px;
 }
 
@@ -61,10 +59,8 @@
   margin-top: 40px;
   padding-bottom: 2rem;
 }
-.low-menu li {
+.low-menu a {
   margin-right: 16px;
-}
-.low-menu li a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
