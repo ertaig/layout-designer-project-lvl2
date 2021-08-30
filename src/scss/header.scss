@@ -13,6 +13,13 @@ header {
   color: $main;
 }
 
+.mtb-11 {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.mt-11 {
+  margin-top: 11px;
+}
 header {
 .menu  {
   display: flex;
@@ -61,6 +68,10 @@ a {
 }
 
 @media only screen and (max-width: 1125px) {
+.mtb-11 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 header {
   left: 0;
   //padding:0 20px 0 20px;
@@ -77,6 +88,7 @@ header {
   flex-direction: column;
 
 }
+
 header {
   display: inline-block;
   padding-top: 0;
@@ -88,6 +100,7 @@ header {
   position: relative;
   bottom: 20px;
   left: 16px;
+  margin-right: 300px;
 }
 
 .menu {
@@ -95,6 +108,9 @@ header {
 a {
   margin-right: 0;
 }
+}
+nav {
+  margin-right: 300px;
 }
 
 .search {

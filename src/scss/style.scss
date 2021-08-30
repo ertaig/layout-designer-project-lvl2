@@ -21,7 +21,7 @@ position: relative;
 
   display: block;
   width: 100%;
-  min-height: 100%;
+  //min-height: 100%;
 
   background-image: url('../images/banner.png');
   background-repeat: no-repeat;
@@ -92,6 +92,7 @@ position: relative;
 }
 
 #page-description {
+  padding-top: 190px;
 p {
   margin-top: 16px;
 }
@@ -114,11 +115,10 @@ button {
 #page-pricing {
   width: 100%;
   padding-top: 100px;
-}
-
-.ml-43 {
   margin-left: 43px;
 }
+
+
 .flex {
   display: flex;
 }
@@ -196,7 +196,7 @@ span {
 }
 
 @media only screen and (max-width: 415px) {
-.ml-43 {
+#page-pricing {
   margin-left: 0;
 }
 .flex {
@@ -239,6 +239,7 @@ span {
   width: 100%;
   margin-bottom: 0;
   padding-top: 100px;
+
 
 .news-items {
   margin-top: 48px;
@@ -289,11 +290,18 @@ button {
   margin-right: 16px;
 }
 
+
+
 @media only screen and (max-width: 415px) {
 .size {
   width: 19px;
   height: 19px;
 }
+
+.image-news {
+  width: 374px;
+  height: 186px;
+  }
 
 .flex-row {
   flex-direction: row;
@@ -335,8 +343,9 @@ button {
   background:$red;
   border-radius: 32px;
   margin-top: 16px;
-
+ a{
   @include fontfamily (12.8px, 19px, 400, $white);
+}
 }
 }
 

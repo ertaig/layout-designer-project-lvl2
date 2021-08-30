@@ -13,6 +13,15 @@ header {
   color: #cacaca;
 }
 
+.mtb-11 {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.mt-11 {
+  margin-top: 11px;
+}
+
 header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +68,11 @@ header .menu a {
 }
 
 @media only screen and (max-width: 1125px) {
+  .mtb-11 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   header {
     left: 0;
   }
@@ -85,6 +99,7 @@ header .menu a {
     position: relative;
     bottom: 20px;
     left: 16px;
+    margin-right: 300px;
   }
   header .menu {
     -webkit-box-orient: vertical;
@@ -95,6 +110,9 @@ header .menu a {
   header .menu a {
     margin-right: 0;
   }
+  header nav {
+    margin-right: 300px;
+  }
   header .search {
     width: 374px;
     margin-left: 0px;
@@ -102,6 +120,7 @@ header .menu a {
   }
 }
 .footer {
+  width: 100%;
   padding-top: 3rem;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
@@ -137,6 +156,15 @@ header .menu a {
   text-transform: none;
 }
 
+.ta-left {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+  text-align: left;
+  color: #E0E0E0;
+}
+
 .mb-15 {
   margin-bottom: 15px;
 }
@@ -149,17 +177,17 @@ header .menu a {
   margin-top: 15px;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .footer-line {
-  width: 100%;
-  height: 2px;
+  margin-bottom: 37px;
+  margin-top: 9px;
   border: 1px solid #E0E0E0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 0;
 }
 
 .low-menu {
-  margin-top: 40px;
   padding-bottom: 2rem;
 }
 .low-menu a {
@@ -187,6 +215,10 @@ header .menu a {
   }
   .flex-footer li {
     margin-bottom: 15px;
+  }
+
+  .mb-16 {
+    margin-bottom: 16px;
   }
 
   .low-menu {
@@ -404,7 +436,6 @@ html {
   top: 0;
   z-index: 1;
   display: block;
-  width: 100%;
   background-image: url("../images/MortenHarket.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -414,10 +445,9 @@ html {
 #page-description {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 150px;
 }
 #page-description .container {
-  margin: 0;
+  margin-left: 80px;
 }
 #page-description h1 {
   color: #FFFFFF;
@@ -486,7 +516,10 @@ button img {
     padding-left: 0;
   }
   #page-description h1 {
-    margin-top: 55px;
+    margin-top: 50px;
+  }
+  #page-description .container {
+    margin-left: 0;
   }
 }
 #page-popular-track {

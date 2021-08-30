@@ -11,7 +11,6 @@
   z-index: 1;
 
   display: block;
-  width: 100%;
   //min-height: 950px;
 
   background-image: url('../images/MortenHarket.png');
@@ -23,9 +22,9 @@
 #page-description {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 150px;
+
 .container {
-  margin: 0;
+  margin-left: 80px;
 }
 
 h1 {
@@ -95,9 +94,12 @@ img {
 @media only screen and (max-width: 415px) {
 #page-description {
   padding-left: 0;
-  h1{
-  margin-top: 55px;
-  }
+h1{
+  margin-top: 50px;
+}
+.container {
+  margin-left: 0;
+}
 }
 }
 
