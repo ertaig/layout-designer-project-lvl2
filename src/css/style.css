@@ -88,6 +88,10 @@ header .menu a {
             flex-direction: column;
   }
 
+  .mr-24 {
+    margin-right: 0x;
+  }
+
   header {
     display: inline-block;
     padding-top: 0;
@@ -121,7 +125,7 @@ header .menu a {
 }
 .footer {
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 62px;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
@@ -188,7 +192,7 @@ header .menu a {
 }
 
 .low-menu {
-  padding-bottom: 2rem;
+  padding-bottom: 48px;
 }
 .low-menu a {
   margin-right: 16px;
@@ -499,6 +503,10 @@ html {
 }
 
 @media only screen and (max-width: 415px) {
+  .fs-14 {
+    margin-bottom: 24px;
+  }
+
   .mt-78 {
     margin-top: 58px;
   }
@@ -554,21 +562,31 @@ html {
 .pricing-item h3 {
   margin-bottom: 200px;
 }
-.pricing-item button {
-  margin-bottom: 64px;
-  border: 1px solid #FFFFFF;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: transparent;
-  width: 318px;
+
+.btn-price {
+  display: inline-block;
+  min-width: 326px;
   height: 66px;
-  font-size: 16px;
-  line-height: 24px;
+  padding: 20px 30px;
+  background: transparent;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
   font-weight: 400;
-  color: #FFFFFF;
-}
-.pricing-item button a {
-  color: #FFFFFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  /*margin-bottom: 64px;
+    border: 1px solid $white;
+    box-sizing: border-box;
+    background: transparent;
+    width: 318px;
+    height: 66px;
+
+    @include fontfamily (16px, 24px, 400, $white);
+  a {
+    color: $white;
+  }*/
 }
 
 .pricing-value {
@@ -652,6 +670,7 @@ html {
 
 .pricing-footer {
   margin-bottom: 64px;
+  margin-top: 64px;
   font-size: 13px;
   line-height: 19px;
   font-weight: 400;
@@ -666,7 +685,7 @@ html {
   padding-top: 100px;
 }
 #page-news .news-items {
-  margin-top: 48px;
+  margin-top: 64px;
 }
 #page-news p {
   text-align: left;
@@ -702,6 +721,9 @@ html {
 
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mt-30 {
   margin-top: 30px;
 }
 
@@ -722,6 +744,10 @@ html {
 }
 
 @media only screen and (max-width: 415px) {
+  .mt-30 {
+    margin-top: 16px;
+  }
+
   .size {
     width: 19px;
     height: 19px;
@@ -768,7 +794,7 @@ html {
   margin-bottom: 100px;
 }
 #page-app h2 {
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 #page-app p {
   text-align: left;
@@ -779,8 +805,6 @@ html {
   background: #95390C;
   border-radius: 32px;
   margin-top: 16px;
-}
-#page-app button a {
   font-size: 12.8px;
   line-height: 19px;
   font-weight: 400;

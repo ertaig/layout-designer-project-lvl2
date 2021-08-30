@@ -88,6 +88,10 @@ header .menu a {
             flex-direction: column;
   }
 
+  .mr-24 {
+    margin-right: 0x;
+  }
+
   header {
     display: inline-block;
     padding-top: 0;
@@ -121,7 +125,7 @@ header .menu a {
 }
 .footer {
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 62px;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
@@ -188,7 +192,7 @@ header .menu a {
 }
 
 .low-menu {
-  padding-bottom: 2rem;
+  padding-bottom: 48px;
 }
 .low-menu a {
   margin-right: 16px;
@@ -443,7 +447,7 @@ html {
 }
 
 #page-description {
-  padding-top: 200px;
+  padding-top: 260px;
   padding-bottom: 200px;
 }
 #page-description .container {
@@ -547,7 +551,7 @@ button img {
 }
 
 .popular-track {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .ml-15 {
@@ -598,6 +602,10 @@ button img {
 }
 
 @media only screen and (max-width: 415px) {
+  .popular-track {
+    margin-bottom: 35px;
+  }
+
   .mr-368 {
     margin-right: 191px;
   }
