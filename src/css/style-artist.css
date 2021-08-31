@@ -662,6 +662,10 @@ button img {
   display: none;
 }
 
+.tt-cap {
+  text-transform: capitalize;
+}
+
 .fs-18 {
   font-size: 18px;
   line-height: 27px;

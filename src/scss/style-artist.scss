@@ -225,7 +225,9 @@ br {
   display: none;
 }
 }
-
+.tt-cap {
+  text-transform: capitalize;
+}
 .fs-18 {
   @include fontfamily (18px, 27px, 700, $white);
 }

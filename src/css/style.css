@@ -558,8 +558,8 @@ html {
   margin-bottom: 48px;
 }
 
-.mb-45 {
-  margin-bottom: 45px;
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .mb-43 {
@@ -836,6 +836,7 @@ html {
   background: #95390C;
   border-radius: 32px;
   margin-top: 16px;
+  padding: 16px 40px 16px 40px;
   font-size: 12.8px;
   line-height: 19px;
   font-weight: 400;

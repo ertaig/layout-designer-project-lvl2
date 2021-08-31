@@ -135,8 +135,8 @@ button {
   margin-bottom: 48px;
 }
 
-.mb-45 {
-  margin-bottom: 45px;
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .mb-43 {
@@ -389,6 +389,7 @@ button {
   background:$red;
   border-radius: 32px;
   margin-top: 16px;
+  padding: 16px 40px 16px 40px;
   @include fontfamily (12.8px, 19px, 400, $white);
 
 }
