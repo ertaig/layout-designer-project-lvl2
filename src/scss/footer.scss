@@ -2,7 +2,7 @@
 
 .footer {
   width: 100%;
-  padding-top: 62px;
+  padding-top: 3rem;
 
   background: linear-gradient(265.08deg, $red 14.9%, $purple 68.95%);
   border-radius: 0;
@@ -21,7 +21,7 @@ h2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
-  column-gap: 40px;
+  column-gap: 38px;
 
  ul li {
   font-weight: 400;
@@ -74,7 +74,7 @@ a {
 }
 
 .low-menu {
-  padding-bottom: 48px;
+  padding-bottom: 2rem;
 
 a {
   margin-right: 16px;

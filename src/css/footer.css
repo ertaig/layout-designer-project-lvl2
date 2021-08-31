@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  padding-top: 62px;
+  padding-top: 3rem;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
@@ -17,12 +17,12 @@
 .footer-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 40px auto 40px auto 40px auto;
+  -ms-grid-columns: auto 38px auto 38px auto 38px auto;
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
-  -webkit-column-gap: 40px;
-     -moz-column-gap: 40px;
-          column-gap: 40px;
+  -webkit-column-gap: 38px;
+     -moz-column-gap: 38px;
+          column-gap: 38px;
 }
 .footer-grid ul li {
   font-weight: 400;
@@ -67,7 +67,7 @@
 }
 
 .low-menu {
-  padding-bottom: 48px;
+  padding-bottom: 2rem;
 }
 .low-menu a {
   margin-right: 16px;

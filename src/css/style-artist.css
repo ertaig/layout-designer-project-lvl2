@@ -102,7 +102,7 @@ header .menu a {
   header .text {
     position: relative;
     bottom: 20px;
-    left: 16px;
+    left: 25px;
     margin-right: 300px;
   }
   header .menu {
@@ -122,10 +122,14 @@ header .menu a {
     margin-left: 0px;
     margin-top: 18px;
   }
+
+  .mt-11 {
+    margin-top: 0;
+  }
 }
 .footer {
   width: 100%;
-  padding-top: 62px;
+  padding-top: 3rem;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
@@ -142,12 +146,12 @@ header .menu a {
 .footer-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 40px auto 40px auto 40px auto;
+  -ms-grid-columns: auto 38px auto 38px auto 38px auto;
   grid-template-columns: auto auto auto auto;
   margin-bottom: 72px;
-  -webkit-column-gap: 40px;
-     -moz-column-gap: 40px;
-          column-gap: 40px;
+  -webkit-column-gap: 38px;
+     -moz-column-gap: 38px;
+          column-gap: 38px;
 }
 .footer-grid ul li {
   font-weight: 400;
@@ -192,7 +196,7 @@ header .menu a {
 }
 
 .low-menu {
-  padding-bottom: 48px;
+  padding-bottom: 2rem;
 }
 .low-menu a {
   margin-right: 16px;
@@ -289,7 +293,6 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -398,7 +401,7 @@ body {
 }
 
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .container {
@@ -447,7 +450,7 @@ html {
 }
 
 #page-description {
-  padding-top: 260px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 #page-description .container {
@@ -487,6 +490,9 @@ button img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
 }
+button span {
+  margin-left: 16px;
+}
 
 .btn {
   border-radius: 5px;
@@ -497,8 +503,8 @@ button img {
   background-color: #5328A1;
 }
 
-.mr-24 {
-  margin-right: 24px;
+.mr-rem {
+  margin-right: 1.5rem;
 }
 
 .btn-red {
@@ -603,7 +609,7 @@ button img {
 
 @media only screen and (max-width: 415px) {
   .popular-track {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
 
   .mr-368 {
@@ -630,8 +636,8 @@ button img {
     margin-right: 0px;
   }
 
-  .mb-15 {
-    margin-bottom: 15px;
+  .mbmobile-0 {
+    margin-bottom: 0;
   }
 }
 #page-discography {

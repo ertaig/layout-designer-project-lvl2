@@ -94,7 +94,7 @@ position: relative;
 }
 
 #page-description {
-  padding-top: 190px;
+
 p {
   margin-top: 16px;
 }
@@ -124,6 +124,12 @@ button {
 .flex {
   display: flex;
 }
+.flex-wrap {
+  flex-wrap: nowrap;
+}
+.ml-0 {
+  margin-left: 0;
+}
 
 .mb-48 {
   margin-bottom: 48px;
@@ -141,7 +147,7 @@ button {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
-  padding-top: 24px;
+  padding-top: 21px;
   text-align: center;
 
 h3 {
@@ -151,7 +157,7 @@ h3 {
 
 .btn-price {
 display: inline-block;
-min-width: 326px;
+min-width: 318px;
 height: 66px;
 padding: 20px 30px;
 background: transparent;
@@ -186,6 +192,13 @@ span {
    vertical-align: top;
 }
 }
+
+.price-item {
+  box-sizing: border-box;
+  max-width: 368px;
+  margin-right: 45px;
+  //padding-bottom: 64px;
+}
 .bg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,20 +208,21 @@ span {
   background-image: url('../images/subscribe_1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 45px;
+  
 }
 
 .bg-standart {
   background-image: url('../images/subscribe_2.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 45px;
+
 }
 
 .bg-premium{
   background-image: url('../images/subscribe_3.png');
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 0;
 }
 
 @media only screen and (max-width: 415px) {
@@ -233,6 +247,9 @@ span {
 
 .mb-43 {
   margin-bottom: 19px;
+}
+.price-item {
+  margin-right: 0;
 }
 }
 .fs-16 {
@@ -259,7 +276,7 @@ span {
 
 
 .news-items {
-  margin-top: 64px;
+  margin-top: 48px;
 }
 
 p {
