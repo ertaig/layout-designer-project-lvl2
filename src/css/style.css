@@ -654,6 +654,9 @@ html {
   #page-pricing {
     margin-left: 0;
   }
+  #page-pricing .mb-50 {
+    margin-bottom: 45px;
+  }
 
   .flex {
     -webkit-box-orient: vertical;
