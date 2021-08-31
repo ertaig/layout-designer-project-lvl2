@@ -90,11 +90,11 @@ position: relative;
   margin-bottom: 24px;
 }
 .mt-78 {
-  margin-top: 58px;
+  margin-top: 50px;
 }
 
 #page-description {
-
+width: 100%;
 p {
   margin-top: 16px;
 }
@@ -148,6 +148,7 @@ button {
   padding-right: 1.5rem;
   border-radius: 1rem;
   padding-top: 21px;
+  padding-bottom: 64px;
   text-align: center;
 
 h3 {
@@ -251,6 +252,9 @@ span {
 .price-item {
   margin-right: 0;
 }
+.pricing-item {
+   padding-bottom: 0;
+}
 }
 .fs-16 {
   @include fontfamily (16px, 24px, 400, $main);
@@ -262,7 +266,7 @@ span {
 }
 
 .pricing-footer {
-  margin-bottom: 64px;
+  //margin-bottom: 64px;
   margin-top: 64px;
   @include fontfamily (13px, 19px, 400, $white);
   text-align: center;
@@ -275,10 +279,13 @@ span {
   padding-top: 100px;
 
 
-.news-items {
+.mt-48 {
   margin-top: 48px;
 }
 
+.mt-64 {
+  margin-top: 64px;
+}
 p {
   text-align: left;
 }

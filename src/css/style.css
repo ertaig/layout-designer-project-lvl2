@@ -98,6 +98,8 @@ header .menu a {
     font-size: 11px;
     line-height: 13px;
     font-weight: 700;
+    margin-bottom: 0;
+    width: 100%;
   }
   header .text {
     position: relative;
@@ -129,7 +131,7 @@ header .menu a {
 }
 .footer {
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 62px;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
@@ -196,7 +198,7 @@ header .menu a {
 }
 
 .low-menu {
-  padding-bottom: 2rem;
+  padding-bottom: 48px;
 }
 .low-menu a {
   margin-right: 16px;
@@ -511,9 +513,12 @@ html {
   }
 
   .mt-78 {
-    margin-top: 58px;
+    margin-top: 50px;
   }
 
+  #page-description {
+    width: 100%;
+  }
   #page-description p {
     margin-top: 16px;
   }
@@ -566,6 +571,7 @@ html {
   padding-right: 1.5rem;
   border-radius: 1rem;
   padding-top: 21px;
+  padding-bottom: 64px;
   text-align: center;
 }
 .pricing-item h3 {
@@ -673,6 +679,10 @@ html {
   .price-item {
     margin-right: 0;
   }
+
+  .pricing-item {
+    padding-bottom: 0;
+  }
 }
 .fs-16 {
   font-size: 16px;
@@ -688,7 +698,6 @@ html {
 }
 
 .pricing-footer {
-  margin-bottom: 64px;
   margin-top: 64px;
   font-size: 13px;
   line-height: 19px;
@@ -703,8 +712,11 @@ html {
   margin-bottom: 0;
   padding-top: 100px;
 }
-#page-news .news-items {
+#page-news .mt-48 {
   margin-top: 48px;
+}
+#page-news .mt-64 {
+  margin-top: 64px;
 }
 #page-news p {
   text-align: left;

@@ -27,6 +27,9 @@
   margin-left: 80px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
 h1 {
   color: $white;
   text-align: left;
@@ -61,9 +64,6 @@ img {
   left: 30px;
   filter: brightness(0) invert(1);
 }
-span {
-  margin-left: 16px;
-}
 }
 
 .btn {
@@ -96,12 +96,18 @@ span {
 @media only screen and (max-width: 415px) {
 #page-description {
   padding-left: 0;
-h1{
-  margin-top: 50px;
+.mt-50 {
+  margin-top: 25px;
 }
+//h1{
+  //margin-top: 25px;
+//}
 .container {
   margin-left: 0;
 }
+}
+ button {
+  margin-top: 24px;
 }
 }
 
@@ -199,6 +205,9 @@ h2 {
 }
 .mbmobile-0 {
   margin-bottom: 0;
+}
+.mt-10 {
+  margin-top: 10px;
 }
 }
 

@@ -98,6 +98,8 @@ header .menu a {
     font-size: 11px;
     line-height: 13px;
     font-weight: 700;
+    margin-bottom: 0;
+    width: 100%;
   }
   header .text {
     position: relative;
@@ -129,7 +131,7 @@ header .menu a {
 }
 .footer {
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 62px;
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
   border-radius: 0;
 }
@@ -196,7 +198,7 @@ header .menu a {
 }
 
 .low-menu {
-  padding-bottom: 2rem;
+  padding-bottom: 48px;
 }
 .low-menu a {
   margin-right: 16px;
