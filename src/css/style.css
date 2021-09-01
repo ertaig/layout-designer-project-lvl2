@@ -89,7 +89,7 @@ header .menu a {
   }
 
   .mr-24 {
-    margin-right: 0x;
+    margin-right: 0;
   }
 
   header {
@@ -482,16 +482,14 @@ html {
 }
 
 @media only screen and (max-width: 415px) {
-  .fs-14 {
-    margin-bottom: 24px;
-  }
-
-  .mt-78 {
-    margin-top: 40px;
-  }
-
   #page-description {
     width: 100%;
+  }
+  #page-description .fs-14 {
+    margin-bottom: 24px;
+  }
+  #page-description .mt-78 {
+    margin-top: 43px;
   }
   #page-description p {
     margin-top: 16px;
