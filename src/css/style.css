@@ -445,7 +445,7 @@ html {
 
 .input-description {
   width: 270px;
-  min-height: 50px;
+  height: 50px;
   border-radius: 3px;
   border: 2px solid #cacaca;
   -webkit-box-sizing: border-box;
@@ -488,17 +488,19 @@ html {
   #page-description .fs-14 {
     margin-bottom: 24px;
   }
-  #page-description .mt-78 {
-    margin-top: 43px;
+  #page-description .mt-45 {
+    margin-top: 45px;
   }
   #page-description p {
     margin-top: 16px;
+    margin-bottom: 16px;
   }
   #page-description input {
     width: 374px;
   }
   #page-description button {
     width: 374px;
+    height: 57px;
   }
   #page-description .mr-24 {
     margin-right: 0;

@@ -36,7 +36,7 @@
 }
 .input-description {
   width: 270px;
-  min-height: 50px;
+  height: 50px;
   border-radius: 3px;
   border: 2px solid $main;
   box-sizing: border-box;
@@ -84,11 +84,12 @@ width: 100%;
 .fs-14 {
   margin-bottom: 24px;
 }
-.mt-78 {
-  margin-top: 43px;
+.mt-45 {
+  margin-top: 45px;
 }
 p {
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 input{
@@ -97,6 +98,7 @@ input{
 
 button {
   width: 374px;
+  height: 57px;
 }
 .mr-24 {
   margin-right: 0;
