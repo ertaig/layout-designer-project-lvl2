@@ -6,9 +6,11 @@ header {
   margin-top: 25px;
   left: 80px;
 }
+
 .fc-white {
   color: $white;
 }
+
 .fc-main {
   color: $main;
 }
@@ -17,9 +19,11 @@ header {
   margin-top: 11px;
   margin-bottom: 11px;
 }
+
 .mt-11 {
   margin-top: 11px;
 }
+
 header {
 .menu  {
   display: flex;
@@ -31,17 +35,17 @@ a {
   font-size: 11px;
   line-height: 16px;
   margin-right: 24px;
+}
+}
+}
 
-}
-}
-}
 .flex {
   display:flex;
 }
+
 .text {
   margin-left: 16px;
   margin-right: 90px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -59,9 +63,7 @@ a {
   background-color: $dark;
   border-radius: 50px;
   text-transform: uppercase;
-
 }
-
 
 .mr-24 {
   margin-right: 24px;
@@ -74,11 +76,10 @@ a {
 }
 header {
   left: 0;
-  //padding:0 20px 0 20px;
+
 .search{
   margin-left: 0;
 }
-
 }
 }
 
@@ -86,7 +87,6 @@ header {
 
 .flex {
   flex-direction: column;
-
 }
 
 .mr-24 {
@@ -110,10 +110,12 @@ header {
 
 .menu {
   flex-direction: column;
+
 a {
   margin-right: 0;
 }
 }
+
 nav {
   margin-right: 300px;
 }
@@ -121,9 +123,10 @@ nav {
 .search {
   width: 374px;
   margin-left: 0px;
-  margin-top: 18px;
+  margin-top: 15px;
 }
 }
+
 .mt-11 {
   margin-top: 0;
 }

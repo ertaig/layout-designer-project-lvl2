@@ -122,7 +122,7 @@ header .menu a {
   header .search {
     width: 374px;
     margin-left: 0px;
-    margin-top: 18px;
+    margin-top: 15px;
   }
 
   .mt-11 {
@@ -148,12 +148,14 @@ header .menu a {
 .footer-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 38px auto 38px auto 38px auto;
-  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  row-gap: 30px;
   margin-bottom: 72px;
-  -webkit-column-gap: 38px;
-     -moz-column-gap: 38px;
-          column-gap: 38px;
 }
 .footer-grid ul li {
   font-weight: 400;
@@ -193,7 +195,6 @@ header .menu a {
 
 .footer-line {
   margin-bottom: 37px;
-  margin-top: 9px;
   border: 1px solid #E0E0E0;
 }
 
@@ -201,7 +202,6 @@ header .menu a {
   padding-bottom: 48px;
 }
 .low-menu a {
-  margin-right: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -216,6 +216,10 @@ header .menu a {
 }
 
 @media only screen and (max-width: 415px) {
+  footer .mr-16 {
+    margin-right: 0;
+  }
+
   .flex-footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -233,10 +237,6 @@ header .menu a {
 
   .low-menu {
     margin-top: 20px;
-  }
-
-  .mb-30 {
-    margin-bottom: 30px;
   }
 
   .footer-grid {

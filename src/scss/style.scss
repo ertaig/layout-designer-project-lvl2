@@ -2,26 +2,17 @@
 @import "general.scss";
 
 
-//#page-description {
- // width: 100%;
- // position: relative;
- // overflow: hidden;
-//}
-
-
 #page-description {
   padding-top: 200px;
   text-align: center;
   padding-bottom: 200px;
 
-position: relative;
+  position: relative;
   margin-top: 0;
-  //left: 0;
   z-index: 1;
 
   display: block;
   width: 100%;
-  //min-height: 100%;
 
   background-image: url('../images/banner.png');
   background-repeat: no-repeat;
@@ -113,13 +104,11 @@ button {
 }
 }
 
-
 #page-pricing {
   width: 100%;
   padding-top: 100px;
   margin-left: 43px;
 }
-
 
 .flex {
   display: flex;
@@ -157,30 +146,18 @@ h3 {
 }
 
 .btn-price {
-display: inline-block;
-min-width: 318px;
-height: 66px;
-padding: 20px 30px;
-background: transparent;
-border: 1px solid #cacaca;
-border-radius: 5px;
-color: #fff;
-text-decoration: none;
-font-weight: 400;
-font-size: 16px;
-text-transform: uppercase;
-  /*margin-bottom: 64px;
-  border: 1px solid $white;
-  box-sizing: border-box;
-  background: transparent;
-  width: 318px;
+  display: inline-block;
+  min-width: 318px;
   height: 66px;
-
-  @include fontfamily (16px, 24px, 400, $white);
-a {
-  color: $white;
-}*/
-
+  padding: 20px 30px;
+  background: transparent;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .pricing-value {
@@ -189,8 +166,8 @@ a {
   @include fontfamily (64px, 1em, 400, $white);
 
 span {
-   @include fontfamily (32px, 48px, 400, $white);
-   vertical-align: top;
+  @include fontfamily (32px, 48px, 400, $white);
+  vertical-align: top;
 }
 }
 
@@ -198,8 +175,8 @@ span {
   box-sizing: border-box;
   max-width: 368px;
   margin-right: 45px;
-  //padding-bottom: 64px;
 }
+
 .bg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -209,14 +186,12 @@ span {
   background-image: url('../images/subscribe_1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .bg-standart {
   background-image: url('../images/subscribe_2.png');
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .bg-premium{
@@ -237,7 +212,7 @@ span {
 .flex {
   flex-direction: column;
 
-  .bg {
+.bg {
   margin-right: 0;
 }
 .bg-free,
@@ -270,7 +245,6 @@ span {
 }
 
 .pricing-footer {
-  //margin-bottom: 64px;
   margin-top: 64px;
   @include fontfamily (13px, 19px, 400, $white);
   text-align: center;
@@ -282,7 +256,6 @@ span {
   margin-bottom: 0;
   padding-top: 100px;
 
-
 .mt-48 {
   margin-top: 48px;
 }
@@ -290,6 +263,7 @@ span {
 .mt-64 {
   margin-top: 64px;
 }
+
 p {
   text-align: left;
 }
@@ -301,13 +275,14 @@ button {
   box-sizing: border-box;
   background: transparent;
 
-   @include fontfamily (12px, 19px, 400, $main);
+  @include fontfamily (12px, 19px, 400, $main);
   text-transform: none;
   text-align: center;
   color: $white;
   padding: 16px 30px 16px 30px; 
 }
 }
+
 .fs-30 {
   @include fontfamily (30px, 45px, 400, $white);
   text-transform: capitalize;
@@ -324,7 +299,7 @@ button {
   margin-top: 30px;
 }
 
-  .fs-12 {
+.fs-12 {
   @include fontfamily (12.8px, 19px, 400, $main);
   text-transform: none;
 }
@@ -337,12 +312,11 @@ button {
   margin-right: 16px;
 }
 
-
-
 @media only screen and (max-width: 415px) {
 .mt-30 {
   margin-top: 16px;
 }
+
 .size {
   width: 19px;
   height: 19px;
@@ -356,6 +330,7 @@ button {
 .flex-row {
   flex-direction: row;
 }
+
 .mt-50 {
   margin-top: 50px;
 }
@@ -395,7 +370,6 @@ button {
   margin-top: 16px;
   padding: 16px 40px 16px 40px;
   @include fontfamily (12.8px, 19px, 400, $white);
-
 }
 }
 
@@ -423,6 +397,5 @@ img {
 .mb-0{
   margin-bottom: 0;
 }
-
 }
 
