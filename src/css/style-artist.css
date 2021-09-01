@@ -151,10 +151,6 @@ header .menu a {
   grid-row-gap: 30px;
   grid-column-gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  -webkit-column-gap: 40px;
-     -moz-column-gap: 40px;
-          column-gap: 40px;
-  row-gap: 30px;
   margin-bottom: 72px;
 }
 .footer-grid ul li {
@@ -216,7 +212,10 @@ header .menu a {
 }
 
 @media only screen and (max-width: 415px) {
-  footer .mr-16 {
+  .footer h2 {
+    margin-bottom: 16px;
+  }
+  .footer .mr-16 {
     margin-right: 16px;
   }
 
@@ -236,33 +235,11 @@ header .menu a {
   }
 
   .footer-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: none;
-    grid-template-columns: none;
-    -ms-grid-rows: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin-bottom: 75px;
+    margin-bottom: 76px;
   }
 
-  .footer-grid > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-
-  .footer-grid > *:nth-child(2) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-
-  .footer-grid > *:nth-child(3) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
-
-  .footer-grid > *:nth-child(4) {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+  .icons-footer:last child {
+    margin-right: 0;
   }
 }
 * {

@@ -21,8 +21,6 @@ h2 {
   grid-row-gap: 30px;
   grid-column-gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  column-gap: 40px;
-  row-gap: 30px;
   margin-bottom: 72px;
 
 ul li {
@@ -88,7 +86,10 @@ a {
 }
 
 @media only screen and (max-width: 415px){
-footer {
+.footer {
+  h2 {
+  margin-bottom: 16px;
+  }
 
 .mr-16 {
   margin-right: 16px;
@@ -108,10 +109,14 @@ li{
 }
 
 .footer-grid{
-  display: grid;
-  grid-template-columns: none;
-  grid-template-rows: auto auto auto auto;
-  margin-bottom: 75px;
+  //display: grid;
+  //grid-template-columns: none;
+  //grid-template-rows: auto auto auto auto;
+  //grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+  margin-bottom: 76px;
+}
+.icons-footer:last child {
+  margin-right: 0;
 }
 }
 
