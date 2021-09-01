@@ -11,7 +11,7 @@
   text-transform: uppercase;
   text-align: left;
   color: #FFFFFF;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .footer-grid {
@@ -63,12 +63,12 @@
 }
 
 .footer-line {
-  margin-bottom: 37px;
   border: 1px solid #E0E0E0;
 }
 
 .low-menu {
   padding-bottom: 48px;
+  margin-top: 40px;
 }
 .low-menu a {
   font-weight: 400;
@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 415px) {
   footer .mr-16 {
-    margin-right: 0;
+    margin-right: 16px;
   }
 
   .flex-footer {
@@ -104,10 +104,6 @@
     margin-bottom: 16px;
   }
 
-  .low-menu {
-    margin-top: 20px;
-  }
-
   .footer-grid {
     display: -ms-grid;
     display: grid;
@@ -115,6 +111,7 @@
     grid-template-columns: none;
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
+    margin-bottom: 75px;
   }
 
   .footer-grid > *:nth-child(1) {

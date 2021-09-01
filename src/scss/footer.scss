@@ -12,7 +12,7 @@ h2 {
   text-transform: uppercase;
   text-align: left;
   color: $white;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
   }
 }
 
@@ -66,12 +66,13 @@ a {
   margin-right: 16px;
 }
 .footer-line {
-  margin-bottom: 37px;
   border: 1px solid $grey;
 }
 
 .low-menu {
   padding-bottom: 48px;
+  margin-top: 40px;
+
 
 a {
   font-weight: 400;
@@ -90,7 +91,7 @@ a {
 footer {
 
 .mr-16 {
-  margin-right: 0;
+  margin-right: 16px;
 }
 }
 .flex-footer{
@@ -105,17 +106,12 @@ li{
 .mb-16 {
   margin-bottom: 16px;
 }
-.low-menu {
-  margin-top: 20px;
-}
-//.mb-30 {
-//  margin-bottom: 30px;
-//}
 
 .footer-grid{
   display: grid;
   grid-template-columns: none;
   grid-template-rows: auto auto auto auto;
+  margin-bottom: 75px;
 }
 }
 
