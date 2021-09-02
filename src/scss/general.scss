@@ -21,6 +21,10 @@
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:focus,
 a:active {
   outline: none;
@@ -63,10 +67,6 @@ button::-moz-focus-inner {
   padding: 0;
 
   border: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 a:visited {
@@ -123,9 +123,9 @@ h1 {
 }
 
 h2 {
+  color: $white;
   font-weight: 700;
   font-size: 38px;
-  color: $white;
   line-height: 57px;
   text-align: center;
   text-transform: uppercase;

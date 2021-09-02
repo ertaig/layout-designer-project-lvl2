@@ -1,5 +1,5 @@
 .fc-white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .fc-main {
@@ -45,10 +45,10 @@ header .menu a {
 .text {
   margin-right: 90px;
   margin-left: 16px;
-  color: #ffffff;
+  color: #fff;
   font-weight: normal;
-  font-style: normal;
   font-size: 10px;
+  font-style: normal;
   line-height: 16px;
 }
 
@@ -96,9 +96,9 @@ header .menu a {
     width: 100%;
     margin-bottom: 0;
     padding-top: 0;
+    font-weight: 700;
     font-size: 11px;
     line-height: 13px;
-    font-weight: 700;
   }
   header .text {
     position: relative;
@@ -136,7 +136,7 @@ header .menu a {
 }
 .footer h2 {
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -259,6 +259,10 @@ header .menu a {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:focus,
 a:active {
   outline: none;
@@ -292,10 +296,6 @@ button {
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 a:visited {
@@ -340,7 +340,7 @@ h6 {
   src: url("../fonts/Roboto-Regular.ttf");
 }
 h1 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 60px;
   line-height: 90px;
@@ -349,16 +349,16 @@ h1 {
 }
 
 h2 {
+  color: #fff;
   font-weight: 700;
   font-size: 38px;
-  color: #ffffff;
   line-height: 57px;
   text-align: center;
   text-transform: uppercase;
 }
 
 h3 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -366,7 +366,7 @@ h3 {
 }
 
 h4 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -402,7 +402,7 @@ html {
   }
 
   h2 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
@@ -410,7 +410,7 @@ html {
   }
 
   h3 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;

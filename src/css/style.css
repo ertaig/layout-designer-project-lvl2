@@ -1,5 +1,5 @@
 .fc-white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .fc-main {
@@ -45,10 +45,10 @@ header .menu a {
 .text {
   margin-right: 90px;
   margin-left: 16px;
-  color: #ffffff;
+  color: #fff;
   font-weight: normal;
-  font-style: normal;
   font-size: 10px;
+  font-style: normal;
   line-height: 16px;
 }
 
@@ -96,9 +96,9 @@ header .menu a {
     width: 100%;
     margin-bottom: 0;
     padding-top: 0;
+    font-weight: 700;
     font-size: 11px;
     line-height: 13px;
-    font-weight: 700;
   }
   header .text {
     position: relative;
@@ -136,7 +136,7 @@ header .menu a {
 }
 .footer h2 {
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -259,6 +259,10 @@ header .menu a {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:focus,
 a:active {
   outline: none;
@@ -292,10 +296,6 @@ button {
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 a:visited {
@@ -340,7 +340,7 @@ h6 {
   src: url("../fonts/Roboto-Regular.ttf");
 }
 h1 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 60px;
   line-height: 90px;
@@ -349,16 +349,16 @@ h1 {
 }
 
 h2 {
+  color: #fff;
   font-weight: 700;
   font-size: 38px;
-  color: #ffffff;
   line-height: 57px;
   text-align: center;
   text-transform: uppercase;
 }
 
 h3 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -366,7 +366,7 @@ h3 {
 }
 
 h4 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -402,7 +402,7 @@ html {
   }
 
   h2 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
@@ -410,7 +410,7 @@ html {
   }
 
   h3 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -420,11 +420,11 @@ html {
 #page-description {
   position: relative;
   z-index: 1;
+  display: block;
+  width: 100%;
   margin-top: 0;
   padding-top: 200px;
   padding-bottom: 200px;
-  display: block;
-  width: 100%;
   text-align: center;
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
@@ -435,12 +435,12 @@ html {
 .text-description {
   margin-top: 30px;
   margin-bottom: 17px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
   text-align: center;
+  text-transform: none;
 }
 
 .form-description {
@@ -449,10 +449,10 @@ html {
 }
 
 .input-description {
-  width: 270px;
-  height: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 270px;
+  height: 50px;
   background: transparent;
   border: 2px solid #cacaca;
   border-radius: 3px;
@@ -470,7 +470,7 @@ html {
 }
 
 .ff-arial {
-  color: #ffffff;
+  color: #fff;
   font-size: 13.3px;
   font-family: Arial, sans-serif;
   line-height: 15px;
@@ -478,9 +478,9 @@ html {
 }
 
 .fs-14 {
-  color: #ffffff;
-  font-size: 14px;
+  color: #fff;
   font-weight: 700;
+  font-size: 14px;
   line-height: 16px;
   margin-bottom: 1.5rem;
   padding-left: 20px;
@@ -549,10 +549,10 @@ html {
 }
 
 .pricing-item {
-  padding-right: 1.5rem;
   padding-top: 21px;
-  padding-left: 1.5rem;
   padding-bottom: 64px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   text-align: center;
   border-radius: 1rem;
 }
@@ -565,10 +565,9 @@ html {
   min-width: 318px;
   height: 66px;
   padding: 20px 30px;
+  color: #fff;
   font-weight: 400;
-  color: #ffffff;
   font-size: 16px;
-  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
   background: transparent;
@@ -578,15 +577,15 @@ html {
 
 .pricing-value {
   margin-bottom: 40px;
-  color: #ffffff;
-  font-size: 64px;
+  color: #fff;
   font-weight: 400;
+  font-size: 64px;
   line-height: 1em;
 }
 .pricing-value span {
-  color: #ffffff;
-  font-size: 32px;
+  color: #fff;
   font-weight: 400;
+  font-size: 32px;
   line-height: 48px;
   vertical-align: top;
 }
@@ -661,22 +660,22 @@ html {
 }
 .fs-16 {
   color: #cacaca;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   text-align: center;
   text-transform: none;
 }
 
 .fc-white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .pricing-footer {
   margin-top: 64px;
-  color: #ffffff;
-  font-size: 13px;
+  color: #fff;
   font-weight: 400;
+  font-size: 13px;
   line-height: 19px;
   text-align: center;
   text-transform: none;
@@ -697,26 +696,26 @@ html {
   text-align: left;
 }
 #page-news button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   min-width: 135px;
   height: 53px;
   padding: 16px 30px 16px 30px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   text-transform: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   background: transparent;
   border: 1px solid #cacaca;
   color: #cacaca;
-  font-size: 12px;
   font-weight: 400;
+  font-size: 12px;
   line-height: 19px;
 }
 
 .fs-30 {
-  color: #ffffff;
-  font-size: 30px;
+  color: #fff;
   font-weight: 400;
+  font-size: 30px;
   line-height: 45px;
   text-transform: capitalize;
 }
@@ -735,8 +734,8 @@ html {
 
 .fs-12 {
   color: #cacaca;
-  font-size: 12.8px;
   font-weight: 400;
+  font-size: 12.8px;
   line-height: 19px;
   text-transform: none;
 }
@@ -787,9 +786,9 @@ html {
   }
 
   .fs-30 {
-    color: #ffffff;
-    font-size: 16px;
+    color: #fff;
     font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
   }
@@ -812,9 +811,9 @@ html {
   padding: 16px 40px 16px 40px;
   background: #95390c;
   border-radius: 32px;
-  color: #ffffff;
-  font-size: 12.8px;
+  color: #fff;
   font-weight: 400;
+  font-size: 12.8px;
   line-height: 19px;
 }
 

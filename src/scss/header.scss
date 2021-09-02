@@ -49,8 +49,8 @@ header {
 
   color: $white;
   font-weight: normal;
-  font-style: normal;
   font-size: 10px;
+  font-style: normal;
   line-height: 16px;
 }
 
@@ -102,9 +102,9 @@ header {
     margin-bottom: 0;
     padding-top: 0;
 
+    font-weight: 700;
     font-size: 11px;
     line-height: 13px;
-    font-weight: 700;
 
     .text {
       position: relative;

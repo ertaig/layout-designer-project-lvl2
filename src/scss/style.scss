@@ -5,12 +5,11 @@
   position: relative;
   z-index: 1;
 
+  display: block;
+  width: 100%;
   margin-top: 0;
   padding-top: 200px;
   padding-bottom: 200px;
-
-  display: block;
-  width: 100%;
 
   text-align: center;
 
@@ -28,8 +27,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
   text-align: center;
+  text-transform: none;
 }
 
 .form-description {
@@ -38,10 +37,9 @@
 }
 
 .input-description {
+  box-sizing: border-box;
   width: 270px;
   height: 50px;
-
-  box-sizing: border-box;
 
   background: transparent;
   border: 2px solid $main;
@@ -71,8 +69,8 @@
 
 @mixin fontfamily ($fs,$lh,$fw,$fc) {
   color: $fc;
-  font-size: $fs;
   font-weight: $fw;
+  font-size: $fs;
 
   line-height: $lh;
 }
@@ -150,10 +148,10 @@
 }
 
 .pricing-item {
-  padding-right: 1.5rem;
   padding-top: 21px;
-  padding-left: 1.5rem;
   padding-bottom: 64px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 
   text-align: center;
 
@@ -170,13 +168,11 @@
   height: 66px;
   padding: 20px 30px;
 
+  color: $white;
   font-weight: 400;
-  color: $white;
   font-size: 16px;
-  color: $white;
   text-transform: uppercase;
   text-decoration: none;
-
 
   background: transparent;
   border: 1px solid #cacaca;
@@ -264,8 +260,8 @@
   }
 }
 .fs-16 {
-
   @include fontfamily (16px, 24px, 400, $main);
+
   text-align: center;
   text-transform: none;
 }
@@ -300,6 +296,7 @@
   }
 
   button {
+    box-sizing: border-box;
     min-width: 135px;
     height: 53px;
     padding: 16px 30px 16px 30px;
@@ -307,8 +304,6 @@
     color: $white;
     text-align: center;
     text-transform: none;
-
-    box-sizing: border-box;
 
     background: transparent;
     border: 1px solid $main;

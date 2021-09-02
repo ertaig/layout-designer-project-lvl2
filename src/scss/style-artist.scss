@@ -35,8 +35,8 @@
 
 @mixin fontfamily ($fs, $lh, $fw, $fc) {
   color: $fc;
-  font-size: $fs;
   font-weight: $fw;
+  font-size: $fs;
   line-height: $lh;
 }
 
@@ -50,8 +50,6 @@ button {
 
   box-sizing: border-box;
 
-  word-wrap: break-word;
-
   width: 200px;
   height: 62px;
   margin-top: 48px;
@@ -59,6 +57,7 @@ button {
 
   @include fontfamily (12.8px, 19px, 400, $white);
   text-transform: uppercase;
+  word-wrap: break-word;
 
   img {
     position: absolute;
