@@ -3,10 +3,11 @@
 
 #page-description {
   position: relative;
+  z-index: 1;
+
   margin-top: 0;
   padding-top: 200px;
   padding-bottom: 200px;
-  z-index: 1;
 
   display: block;
   width: 100%;
@@ -23,9 +24,9 @@
   margin-top: 30px;
   margin-bottom: 17px;
 
+  color: $white;
   font-weight: 400;
   font-size: 16px;
-  color: $white;
   line-height: 24px;
   text-transform: none;
   text-align: center;
@@ -33,20 +34,18 @@
 
 .form-description {
   width: 570px;
-
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .input-description {
   width: 270px;
   height: 50px;
 
-  border: 2px solid $main;
-  border-radius: 3px;
-
   box-sizing: border-box;
 
   background: transparent;
+  border: 2px solid $main;
+  border-radius: 3px;
 }
 
 .btn-description {
@@ -58,20 +57,21 @@
 
 .btn {
   padding: 20px 30px 20px 30px;
+
   border-radius: 5px;
 }
 
 .ff-arial {
-  font-size: 13.3px;
-  font-family: Arial;
   color: $white;
+  font-size: 13.3px;
+  font-family: Arial, sans-serif;
   line-height: 15px;
   text-transform: uppercase;
 }
 
- @mixin fontfamily ($fs,$lh,$fw,$fc) {
-  font-size: $fs;
+@mixin fontfamily ($fs,$lh,$fw,$fc) {
   color: $fc;
+  font-size: $fs;
   font-weight: $fw;
 
   line-height: $lh;
@@ -81,7 +81,6 @@
   @include fontfamily (14px, 16px, 700, $white);
   margin-bottom: 1.5rem;
   padding-left: 20px;
-
 }
 
 @media only screen and (max-width: 415px) {
@@ -116,7 +115,7 @@
   }
 
   .form-description {
-    width: 100%
+    width: 100%;
   }
 }
 
@@ -152,8 +151,8 @@
 
 .pricing-item {
   padding-right: 1.5rem;
-  padding-left: 1.5rem;
   padding-top: 21px;
+  padding-left: 1.5rem;
   padding-bottom: 64px;
 
   text-align: center;
@@ -172,10 +171,12 @@
   padding: 20px 30px;
 
   font-weight: 400;
+  color: $white;
   font-size: 16px;
   color: $white;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
+
 
   background: transparent;
   border: 1px solid #cacaca;
@@ -236,7 +237,7 @@
   .flex {
     flex-direction: column;
 
-  .bg {
+    .bg {
       margin-right: 0;
     }
 
@@ -301,15 +302,16 @@
   button {
     min-width: 135px;
     height: 53px;
-    padding: 16px 30px 16px 30px; 
+    padding: 16px 30px 16px 30px;
 
     color: $white;
-    text-transform: none;
     text-align: center;
+    text-transform: none;
 
-    border: 1px solid $main;
     box-sizing: border-box;
+
     background: transparent;
+    border: 1px solid $main;
 
     @include fontfamily (12px, 19px, 400, $main);
   }
@@ -419,7 +421,7 @@
 }
 
 @media only screen and (max-width: 415px) {
-  #page-app{
+  #page-app {
     h2 {
       margin-bottom: 48px;
     }
@@ -434,7 +436,7 @@
     margin-right: 0;
   }
 
-  .mb-0{
+  .mb-0 {
     margin-bottom: 0;
   }
 }

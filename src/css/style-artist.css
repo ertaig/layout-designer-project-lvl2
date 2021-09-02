@@ -29,11 +29,11 @@ header .menu {
       flex-wrap: wrap;
 }
 header .menu a {
-  font-weight: normal;
-  font-style: normal;
-  font-size: 11px;
-  line-height: 16px;
   margin-right: 24px;
+  font-weight: normal;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 16px;
 }
 
 .flex {
@@ -45,10 +45,10 @@ header .menu a {
 .text {
   margin-right: 90px;
   margin-left: 16px;
+  color: #ffffff;
   font-weight: normal;
   font-style: normal;
   font-size: 10px;
-  color: #ffffff;
   line-height: 16px;
 }
 
@@ -93,12 +93,12 @@ header .menu a {
 
   header {
     display: inline-block;
-    font-size: 11px;
-    line-height: 13px;
-    font-weight: 700;
     width: 100%;
     margin-bottom: 0;
     padding-top: 0;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
   }
   header .text {
     position: relative;
@@ -135,13 +135,13 @@ header .menu a {
   border-radius: 0;
 }
 .footer h2 {
+  margin-bottom: 15px;
+  color: #ffffff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 15px;
 }
 
 .footer-grid {
@@ -164,10 +164,10 @@ header .menu a {
 }
 
 .ta-left {
+  color: #e0e0e0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #e0e0e0;
   text-align: left;
   text-transform: none;
 }
@@ -197,10 +197,10 @@ header .menu a {
   padding-bottom: 48px;
 }
 .low-menu a {
+  color: #e0e0e0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #e0e0e0;
   text-transform: none;
 }
 
@@ -247,7 +247,8 @@ header .menu a {
   border: 0;
 }
 
-*, *::before,
+*,
+*::before,
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -265,8 +266,8 @@ a:active {
 
 html,
 body {
-  height: 100%;
   width: 100%;
+  height: 100%;
   font-size: 100%;
   line-height: 1;
   -ms-text-size-adjust: 100%;
@@ -293,7 +294,6 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a,
 a:visited {
   text-decoration: none;
 }
@@ -336,9 +336,9 @@ h6 {
   src: url("../fonts/Roboto-Regular.ttf");
 }
 h1 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 60px;
-  color: #ffffff;
   line-height: 90px;
   text-align: center;
   text-transform: uppercase;
@@ -354,17 +354,17 @@ h2 {
 }
 
 h3 {
+  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
-  color: #ffffff;
   line-height: 36px;
   text-transform: uppercase;
 }
 
 h4 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 18px;
-  color: #ffffff;
   line-height: 27px;
   text-transform: uppercase;
 }
@@ -398,34 +398,34 @@ html {
   }
 
   h2 {
+    color: #ffffff;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: #ffffff;
     text-transform: uppercase;
   }
 
   h3 {
+    color: #ffffff;
     font-weight: 400;
     font-size: 16px;
-    color: #ffffff;
     line-height: 24px;
     text-transform: uppercase;
   }
 }
 #page-description {
-  width: 100%;
   position: relative;
   top: 0;
   z-index: 1;
-  overflow: hidden;
   display: block;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
   background-image: url("../images/MortenHarket.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 #page-description .container {
   margin-left: 80px;
@@ -440,10 +440,11 @@ html {
 }
 
 .fs-16 {
-  font-size: 16px;
   color: #ffffff;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  text-transform: none;
 }
 
 button {
@@ -455,8 +456,8 @@ button {
   height: 62px;
   margin-top: 48px;
   padding: 20px 30px 20px 30px;
-  font-size: 12.8px;
   color: #ffffff;
+  font-size: 12.8px;
   font-weight: 400;
   line-height: 19px;
   text-transform: uppercase;
@@ -556,15 +557,15 @@ button img {
 }
 
 .fs-12 {
-  font-size: 12.8px;
   color: #ffffff;
+  font-size: 12.8px;
   font-weight: 700;
   line-height: 19.2px;
 }
 
 .fw-400 {
-  font-size: 12.8px;
   color: #e0e0e0;
+  font-size: 12.8px;
   font-weight: 400;
   line-height: 19.2px;
   text-transform: none;
@@ -632,17 +633,13 @@ button img {
 }
 
 .fs-18 {
-  font-size: 18px;
   color: #ffffff;
+  font-size: 18px;
   font-weight: 700;
   line-height: 27px;
 }
 
 .tt-none {
-  text-transform: none;
-}
-
-.fs-16 {
   text-transform: none;
 }
 

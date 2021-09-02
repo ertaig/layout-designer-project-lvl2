@@ -29,11 +29,11 @@ header .menu {
       flex-wrap: wrap;
 }
 header .menu a {
-  font-weight: normal;
-  font-style: normal;
-  font-size: 11px;
-  line-height: 16px;
   margin-right: 24px;
+  font-weight: normal;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 16px;
 }
 
 .flex {
@@ -45,10 +45,10 @@ header .menu a {
 .text {
   margin-right: 90px;
   margin-left: 16px;
+  color: #ffffff;
   font-weight: normal;
   font-style: normal;
   font-size: 10px;
-  color: #ffffff;
   line-height: 16px;
 }
 
@@ -93,12 +93,12 @@ header .menu a {
 
   header {
     display: inline-block;
-    font-size: 11px;
-    line-height: 13px;
-    font-weight: 700;
     width: 100%;
     margin-bottom: 0;
     padding-top: 0;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
   }
   header .text {
     position: relative;
@@ -135,13 +135,13 @@ header .menu a {
   border-radius: 0;
 }
 .footer h2 {
+  margin-bottom: 15px;
+  color: #ffffff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 15px;
 }
 
 .footer-grid {
@@ -164,10 +164,10 @@ header .menu a {
 }
 
 .ta-left {
+  color: #e0e0e0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #e0e0e0;
   text-align: left;
   text-transform: none;
 }
@@ -197,10 +197,10 @@ header .menu a {
   padding-bottom: 48px;
 }
 .low-menu a {
+  color: #e0e0e0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #e0e0e0;
   text-transform: none;
 }
 
@@ -247,7 +247,8 @@ header .menu a {
   border: 0;
 }
 
-*, *::before,
+*,
+*::before,
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -265,8 +266,8 @@ a:active {
 
 html,
 body {
-  height: 100%;
   width: 100%;
+  height: 100%;
   font-size: 100%;
   line-height: 1;
   -ms-text-size-adjust: 100%;
@@ -293,7 +294,6 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a,
 a:visited {
   text-decoration: none;
 }
@@ -336,9 +336,9 @@ h6 {
   src: url("../fonts/Roboto-Regular.ttf");
 }
 h1 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 60px;
-  color: #ffffff;
   line-height: 90px;
   text-align: center;
   text-transform: uppercase;
@@ -354,17 +354,17 @@ h2 {
 }
 
 h3 {
+  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
-  color: #ffffff;
   line-height: 36px;
   text-transform: uppercase;
 }
 
 h4 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 18px;
-  color: #ffffff;
   line-height: 27px;
   text-transform: uppercase;
 }
@@ -398,27 +398,27 @@ html {
   }
 
   h2 {
+    color: #ffffff;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: #ffffff;
     text-transform: uppercase;
   }
 
   h3 {
+    color: #ffffff;
     font-weight: 400;
     font-size: 16px;
-    color: #ffffff;
     line-height: 24px;
     text-transform: uppercase;
   }
 }
 #page-description {
   position: relative;
+  z-index: 1;
   margin-top: 0;
   padding-top: 200px;
   padding-bottom: 200px;
-  z-index: 1;
   display: block;
   width: 100%;
   text-align: center;
@@ -431,9 +431,9 @@ html {
 .text-description {
   margin-top: 30px;
   margin-bottom: 17px;
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
-  color: #ffffff;
   line-height: 24px;
   text-transform: none;
   text-align: center;
@@ -447,11 +447,11 @@ html {
 .input-description {
   width: 270px;
   height: 50px;
-  border: 2px solid #cacaca;
-  border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: transparent;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
 }
 
 .btn-description {
@@ -466,16 +466,16 @@ html {
 }
 
 .ff-arial {
-  font-size: 13.3px;
-  font-family: Arial;
   color: #ffffff;
+  font-size: 13.3px;
+  font-family: Arial, sans-serif;
   line-height: 15px;
   text-transform: uppercase;
 }
 
 .fs-14 {
-  font-size: 14px;
   color: #ffffff;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   margin-bottom: 1.5rem;
@@ -546,8 +546,8 @@ html {
 
 .pricing-item {
   padding-right: 1.5rem;
-  padding-left: 1.5rem;
   padding-top: 21px;
+  padding-left: 1.5rem;
   padding-bottom: 64px;
   text-align: center;
   border-radius: 1rem;
@@ -562,10 +562,11 @@ html {
   height: 66px;
   padding: 20px 30px;
   font-weight: 400;
+  color: #ffffff;
   font-size: 16px;
   color: #ffffff;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
   background: transparent;
   border: 1px solid #cacaca;
   border-radius: 5px;
@@ -573,14 +574,14 @@ html {
 
 .pricing-value {
   margin-bottom: 40px;
-  font-size: 64px;
   color: #ffffff;
+  font-size: 64px;
   font-weight: 400;
   line-height: 1em;
 }
 .pricing-value span {
-  font-size: 32px;
   color: #ffffff;
+  font-size: 32px;
   font-weight: 400;
   line-height: 48px;
   vertical-align: top;
@@ -655,8 +656,8 @@ html {
   }
 }
 .fs-16 {
-  font-size: 16px;
   color: #cacaca;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
@@ -669,8 +670,8 @@ html {
 
 .pricing-footer {
   margin-top: 64px;
-  font-size: 13px;
   color: #ffffff;
+  font-size: 13px;
   font-weight: 400;
   line-height: 19px;
   text-align: center;
@@ -696,21 +697,21 @@ html {
   height: 53px;
   padding: 16px 30px 16px 30px;
   color: #ffffff;
-  text-transform: none;
   text-align: center;
-  border: 1px solid #cacaca;
+  text-transform: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: transparent;
-  font-size: 12px;
+  border: 1px solid #cacaca;
   color: #cacaca;
+  font-size: 12px;
   font-weight: 400;
   line-height: 19px;
 }
 
 .fs-30 {
-  font-size: 30px;
   color: #ffffff;
+  font-size: 30px;
   font-weight: 400;
   line-height: 45px;
   text-transform: capitalize;
@@ -729,8 +730,8 @@ html {
 }
 
 .fs-12 {
-  font-size: 12.8px;
   color: #cacaca;
+  font-size: 12.8px;
   font-weight: 400;
   line-height: 19px;
   text-transform: none;
@@ -782,8 +783,8 @@ html {
   }
 
   .fs-30 {
-    font-size: 16px;
     color: #ffffff;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-transform: capitalize;
@@ -807,8 +808,8 @@ html {
   padding: 16px 40px 16px 40px;
   background: #95390c;
   border-radius: 32px;
-  font-size: 12.8px;
   color: #ffffff;
+  font-size: 12.8px;
   font-weight: 400;
   line-height: 19px;
 }

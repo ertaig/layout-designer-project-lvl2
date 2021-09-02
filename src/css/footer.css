@@ -5,13 +5,13 @@
   border-radius: 0;
 }
 .footer h2 {
+  margin-bottom: 15px;
+  color: #ffffff;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 15px;
 }
 
 .footer-grid {
@@ -34,10 +34,10 @@
 }
 
 .ta-left {
+  color: #e0e0e0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #e0e0e0;
   text-align: left;
   text-transform: none;
 }
@@ -67,10 +67,10 @@
   padding-bottom: 48px;
 }
 .low-menu a {
+  color: #e0e0e0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #e0e0e0;
   text-transform: none;
 }
 

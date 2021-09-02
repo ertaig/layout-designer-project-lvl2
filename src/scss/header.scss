@@ -18,23 +18,23 @@
 }
 
 header {
-position: absolute;
-left: 80px;
-z-index: 3;
+  position: absolute;
+  left: 80px;
+  z-index: 3;
 
-margin-top: 25px;
+  margin-top: 25px;
 
   .menu {
     display: flex;
     flex-wrap: wrap;
 
     a {
-      font-weight: normal;
-      font-style: normal;
-      font-size: 11px;
-      line-height: 16px;
-
       margin-right: 24px;
+
+      font-weight: normal;
+      font-size: 11px;
+      font-style: normal;
+      line-height: 16px;
     }
   }
 }
@@ -47,10 +47,10 @@ margin-top: 25px;
   margin-right: 90px;
   margin-left: 16px;
 
+  color: $white;
   font-weight: normal;
   font-style: normal;
   font-size: 10px;
-  color: $white;
   line-height: 16px;
 }
 
@@ -87,7 +87,6 @@ margin-top: 25px;
 }
 
 @media only screen and (max-width: 415px) {
-
   .flex {
     flex-direction: column;
   }
@@ -99,13 +98,13 @@ margin-top: 25px;
   header {
     display: inline-block;
 
-    font-size: 11px;
-    line-height: 13px;
-    font-weight: 700;
-
     width: 100%;
     margin-bottom: 0;
     padding-top: 0;
+
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
 
     .text {
       position: relative;
@@ -116,10 +115,10 @@ margin-top: 25px;
     }
 
     .menu {
-        flex-direction: column;
+      flex-direction: column;
 
       a {
-          margin-right: 0;
+        margin-right: 0;
       }
     }
 
