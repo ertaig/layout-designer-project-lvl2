@@ -1,13 +1,13 @@
 @import "variables.scss";
 @import "general.scss";
 
-
 #page-description {
   width: 100%;
   position: relative;
-  overflow: hidden;
   top: 0;
   z-index: 1;
+
+  overflow: hidden;
 
   display: block;
 
@@ -15,59 +15,64 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-#page-description {
   padding-top: 200px;
   padding-bottom: 200px;
 
-.container {
-  margin-left: 80px;
+  .container {
+    margin-left: 80px;
+  }
+
+  .mt-50 {
+    margin-top: 50px;
+  }
+
+  h1 {
+    margin-bottom: 16px;
+
+    color: $white;
+    text-align: left;
+  }
 }
 
-.mt-50 {
-  margin-top: 50px;
-}
-h1 {
-  color: $white;
-  text-align: left;
-  margin-bottom: 16px;
-}
-}
-
-@mixin  fontfamily ($fs, $lh, $fw, $fc) {
+@mixin fontfamily ($fs, $lh, $fw, $fc) {
   font-size: $fs;
-  line-height: $lh;
-  font-weight: $fw;
   color: $fc;
+  font-weight: $fw;
+  line-height: $lh;
 }
 
-.fs-16{
+.fs-16 {
   @include fontfamily (16px, 24px, 400, $white);
 }
 
  button {
   position: relative;
+
   box-sizing: border-box;
+
   word-wrap: break-word;
-  margin-top: 48px;
+
   width: 200px;
   height: 62px;
+  margin-top: 48px;
   padding: 20px 30px 20px 30px; 
 
   @include fontfamily (12.8px, 19px, 400, $white);
   text-transform: uppercase;
 
-img {
-  position: absolute;
-  left: 30px;
-  filter: brightness(0) invert(1);
-}
+  img {
+    position: absolute;
+    left: 30px;
+
+    filter: brightness(0) invert(1);
+  }
 }
 
 .btn {
-  border-radius: 5px;
   padding: 20px 30px 20px 30px; 
+
+  border-radius: 5px;
 }
 
 .btn-purple {
@@ -87,30 +92,34 @@ img {
 }
 
 @media only screen and (max-width: 415px) {
-#page-description {
-  padding-left: 0;
-.mt-50 {
-  margin-top: 25px;
-}
+  #page-description {
+    padding-left: 0;
 
-.container {
-  margin-left: 0;
-}
-.mt-24 {
-  margin-top: 24px;
-}
-}
+    .mt-50 {
+      margin-top: 25px;
+    }
+
+    .container {
+      margin-left: 0;
+    }
+
+    .mt-24 {
+      margin-top: 24px;
+    }
+  }
 }
 
 #page-popular-track {
   width: 100%;
-  background: $bgcolor;
   padding-top: 100px;
 
-h2 {
-  text-align: left;
-  margin-bottom: 48px;
-}
+  background: $bgcolor;
+
+  h2 {
+    margin-bottom: 48px;
+
+    text-align: left;
+  }
 }
 
 .flex-artist {
@@ -162,60 +171,67 @@ h2 {
 .mr-50 {
   margin-right: 50px;
 }
+
 .mb-0 {
   margin-bottom: 0;
 }
 
 @media only screen and (max-width: 415px) {
 
-.popular-track {
-  margin-bottom: 25px;
-}
-.mr-368 {
-  margin-right: 191px;
-}
+  .popular-track {
+    margin-bottom: 25px;
+  }
 
-.mr-373 {
-  margin-right: 196px;
-}
+  .mr-368 {
+    margin-right: 191px;
+  }
 
-.mr-331 {
-  margin-right: 154px;
-}
+  .mr-373 {
+    margin-right: 196px;
+  }
 
-.mr-363 {
-  margin-right: 186px;
-}
+  .mr-331 {
+    margin-right: 154px;
+  }
 
-.mr-337 {
-  margin-right: 160px;
-}
+  .mr-363 {
+    margin-right: 186px;
+  }
 
-.mr-50 {
-  margin-right: 0px;
-}
-.mbmobile-0 {
-  margin-bottom: 0;
-}
-.mt-10 {
-  margin-top: 10px;
-}
-}
+  .mr-337 {
+    margin-right: 160px;
+  }
 
+  .mr-50 {
+    margin-right: 0;
+  }
+
+  .mbmobile-0 {
+    margin-bottom: 0;
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
+}
 
 #page-discography {
-  background: $bgcolor;
   padding-top: 100px;
 
-h2 {
-  text-align: left;
-  margin-bottom: 48px;
+  background: $bgcolor;
+
+
+  h2 {
+    margin-bottom: 48px;
+
+    text-align: left;
+  }
+
+  br {
+    display: none;
+  }
 }
 
-br {
-  display: none;
-}
-}
 .tt-cap {
   text-transform: capitalize;
 }
@@ -229,16 +245,15 @@ br {
 }
 
 .fs-16 {
-  @include fontfamily (16px, 24px, 400, $white);
   text-transform: none;
-
 }
+
 .fc-grey {
   color: $grey;
 }
 
 .mt-18 {
- margin-top: 18px;
+  margin-top: 18px;
 }
 
 .discography-item {
@@ -246,34 +261,36 @@ br {
   margin-bottom: 25px;
 }
 
-@media only screen and (max-width: 415px){
-#page-discography{
-img {
-  width: 137px;
-}
+@media only screen and (max-width: 415px) {
+  #page-discography {
+    img {
+      width: 137px;
+    }
 
-br {
-  display: initial;
-}
-}
+    br {
+      display: initial;
+    }
+  }
 
-.mr-0 {
-  margin-right: 0px;
-}
+  .mr-0 {
+    margin-right: 0;
+  }
 }
 
 #page-similar {
-  background: $bgcolor;
   padding-top: 100px;
 
-h2 {
-  text-align: left;
-  margin-bottom: 48px;
-}
+  background: $bgcolor;
 
-br {
-  display: none;
-}
+  h2 {
+    margin-bottom: 48px;
+
+    text-align: left;
+  }
+
+  br {
+    display: none;
+  }
 }
 
 .ta-center {
@@ -285,14 +302,14 @@ br {
   margin-bottom: 25px;
 }
 
-@media only screen and (max-width: 415px){
-#page-similar {
-img {
-  width: 137px;
-}
+@media only screen and (max-width: 415px) {
+  #page-similar {
+    img {
+      width: 137px;
+    }
 
-br {
-  display: initial;
-}
-}
+    br {
+      display: initial;
+    }
+  }
 }

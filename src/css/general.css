@@ -1,12 +1,5 @@
-header {
-  position: absolute;
-  z-index: 3;
-  margin-top: 25px;
-  left: 80px;
-}
-
 .fc-white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fc-main {
@@ -22,6 +15,12 @@ header {
   margin-top: 11px;
 }
 
+header {
+  position: absolute;
+  left: 80px;
+  z-index: 3;
+  margin-top: 25px;
+}
 header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,8 +29,8 @@ header .menu {
       flex-wrap: wrap;
 }
 header .menu a {
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
   font-size: 11px;
   line-height: 16px;
   margin-right: 24px;
@@ -44,13 +43,13 @@ header .menu a {
 }
 
 .text {
-  margin-left: 16px;
   margin-right: 90px;
-  font-style: normal;
+  margin-left: 16px;
   font-weight: normal;
+  font-style: normal;
   font-size: 10px;
+  color: #ffffff;
   line-height: 16px;
-  color: #FFFFFF;
 }
 
 .search {
@@ -58,9 +57,9 @@ header .menu a {
   height: 25px;
   margin-left: 415px;
   padding-left: 10px;
-  background-color: #3C3B3D;
-  border-radius: 50px;
   text-transform: uppercase;
+  background-color: #3c3b3d;
+  border-radius: 50px;
 }
 
 .mr-24 {
@@ -94,12 +93,12 @@ header .menu a {
 
   header {
     display: inline-block;
-    padding-top: 0;
     font-size: 11px;
     line-height: 13px;
     font-weight: 700;
-    margin-bottom: 0;
     width: 100%;
+    margin-bottom: 0;
+    padding-top: 0;
   }
   header .text {
     position: relative;
@@ -121,8 +120,8 @@ header .menu a {
   }
   header .search {
     width: 374px;
-    margin-left: 0px;
     margin-top: 15px;
+    margin-left: 0;
   }
 
   .mt-11 {
@@ -132,16 +131,16 @@ header .menu a {
 .footer {
   width: 100%;
   padding-top: 62px;
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+  background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
   border-radius: 0;
 }
 .footer h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  text-transform: uppercase;
+  color: #ffffff;
   text-align: left;
-  color: #FFFFFF;
+  text-transform: uppercase;
   margin-bottom: 15px;
 }
 
@@ -160,7 +159,7 @@ header .menu a {
   text-transform: none;
 }
 .footer-grid a {
-  color: #E0E0E0;
+  color: #e0e0e0;
   text-transform: none;
 }
 
@@ -168,9 +167,9 @@ header .menu a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
+  color: #e0e0e0;
   text-align: left;
-  color: #E0E0E0;
+  text-transform: none;
 }
 
 .mb-15 {
@@ -190,18 +189,18 @@ header .menu a {
 }
 
 .footer-line {
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
 }
 
 .low-menu {
-  padding-bottom: 48px;
   margin-top: 40px;
+  padding-bottom: 48px;
 }
 .low-menu a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #E0E0E0;
+  color: #e0e0e0;
   text-transform: none;
 }
 
@@ -238,18 +237,18 @@ header .menu a {
     margin-bottom: 76px;
   }
 
-  .icons-footer:last child {
+  .icons-footer:last-child {
     margin-right: 0;
   }
 }
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   border: 0;
 }
 
-*, *:before,
-*:after {
+*, *::before,
+*::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -259,7 +258,8 @@ header .menu a {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
@@ -293,7 +293,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -337,34 +338,34 @@ h6 {
 h1 {
   font-weight: 700;
   font-size: 60px;
+  color: #ffffff;
   line-height: 90px;
-  text-transform: uppercase;
   text-align: center;
-  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 h2 {
   font-weight: 700;
   font-size: 38px;
+  color: #ffffff;
   line-height: 57px;
-  text-transform: uppercase;
   text-align: center;
-  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 h3 {
   font-weight: 400;
   font-size: 24px;
+  color: #ffffff;
   line-height: 36px;
-  color: #FFFFFF;
   text-transform: uppercase;
 }
 
 h4 {
   font-weight: 700;
   font-size: 18px;
+  color: #ffffff;
   line-height: 27px;
-  color: #FFFFFF;
   text-transform: uppercase;
 }
 
@@ -381,11 +382,11 @@ html {
 }
 
 .container {
+  position: relative;
+  z-index: 2;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
-  position: relative;
-  z-index: 2;
 }
 
 @media only screen and (max-width: 415px) {
@@ -400,15 +401,15 @@ html {
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+    color: #ffffff;
     text-transform: uppercase;
-    color: #FFFFFF;
   }
 
   h3 {
     font-weight: 400;
     font-size: 16px;
+    color: #ffffff;
     line-height: 24px;
-    color: #FFFFFF;
     text-transform: uppercase;
   }
 }
