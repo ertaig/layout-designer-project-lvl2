@@ -149,8 +149,8 @@
 
 .pricing-item {
   padding-top: 21px;
-  padding-bottom: 64px;
   padding-right: 1.5rem;
+  padding-bottom: 64px;
   padding-left: 1.5rem;
 
   text-align: center;
@@ -259,6 +259,7 @@
     padding-bottom: 0;
   }
 }
+
 .fs-16 {
   @include fontfamily (16px, 24px, 400, $main);
 
